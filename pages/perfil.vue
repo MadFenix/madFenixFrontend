@@ -50,7 +50,7 @@ export default {
         const accountsRequest = await this.etherProvider.send('eth_requestAccounts', []);
         const signer = this.etherProvider.getSigner();
         const upAddress = await signer.getAddress();
-        const message = 'Bienvenid@ a Radge!';
+        const message = 'Bienvenid@ a Mad Fénix!';
         const signature = await this.etherProvider.send('personal_sign', [upAddress, message]);
 
         this.linkWalletPost(upAddress, signature);
