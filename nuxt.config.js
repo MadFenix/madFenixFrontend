@@ -15,7 +15,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { type: 'application/javascript', src: '/js/snap.svg-min.js' }
+      { type: 'application/javascript', src: '/js/tailwind.js' },
+      { type: 'application/javascript', src: '/js/tailwind-config.js' },
+      { type: 'application/javascript', src: '/js/flowbite.js' }
     ]
   },
   /*
