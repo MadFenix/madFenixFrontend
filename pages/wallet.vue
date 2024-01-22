@@ -1,48 +1,50 @@
 <template>
-  <CtCard title="Cartera" width="500" class="mx-auto">
-    <template v-slot:rightTitleContent>
-      <CtBtn type="icon" color="white" :icon="['fas', 'plus']" @click="addTransfer" />
-    </template>
-    <v-row dense>
-      <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
-      <v-col cols="12" class="mt-5">
-        <v-card color="primary" dark>
-          <v-container v-if="wallet" class="text-center">
-            <span v-html="wallet.balance + ' Zen'" style="font-size: 36px" />
-          </v-container>
-        </v-card>
-      </v-col>
-    </v-row>
-    <CtDialog v-model="form" :title="formTitle" width="500" class="mx-auto">
+  <v-app>
+    <CtCard title="Cartera" width="500" class="mx-auto">
       <template v-slot:rightTitleContent>
-        <CtBtn type="icon" color="white" :icon="['fas', 'times']" @click="closeTransfer" />
+        <CtBtn type="icon" color="white" :icon="['fas', 'plus']" @click="addTransfer" />
       </template>
-      <v-card-text>
-        <v-container
-          fluid
-          id="scroll-target"
-          style="max-height: 400px"
-          class="overflow-y-auto"
-        >
-          <v-row dense style="height: 450px">
-            <v-col cols="12">
-              <v-select :items="users" item-text="name" item-value="id" append-icon="mdi-chevron-right" label="Usuario al que transferir" v-model="transfer.user_id_to_transfer"/>
-            </v-col>
-            <v-col cols="12">
-              <CtTextField append-icon="mdi-fingerprint" label="Cantidad" v-model="transfer.amount"/>
-            </v-col>
-            <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
-          </v-row>
-        </v-container>
-      </v-card-text>
-      <v-divider></v-divider>
-      <v-card-actions>
-        <CtBtn @click="save()" type="primary" block>
-          Guardar
-        </CtBtn>
-      </v-card-actions>
-    </CtDialog>
-  </CtCard>
+      <v-row dense>
+        <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
+        <v-col cols="12" class="mt-5">
+          <v-card color="primary" dark>
+            <v-container v-if="wallet" class="text-center">
+              <span v-html="wallet.balance + ' Zen'" style="font-size: 36px" />
+            </v-container>
+          </v-card>
+        </v-col>
+      </v-row>
+      <CtDialog v-model="form" :title="formTitle" width="500" class="mx-auto">
+        <template v-slot:rightTitleContent>
+          <CtBtn type="icon" color="white" :icon="['fas', 'times']" @click="closeTransfer" />
+        </template>
+        <v-card-text>
+          <v-container
+            fluid
+            id="scroll-target"
+            style="max-height: 400px"
+            class="overflow-y-auto"
+          >
+            <v-row dense style="height: 450px">
+              <v-col cols="12">
+                <v-select :items="users" item-text="name" item-value="id" append-icon="mdi-chevron-right" label="Usuario al que transferir" v-model="transfer.user_id_to_transfer"/>
+              </v-col>
+              <v-col cols="12">
+                <CtTextField append-icon="mdi-fingerprint" label="Cantidad" v-model="transfer.amount"/>
+              </v-col>
+              <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
+            </v-row>
+          </v-container>
+        </v-card-text>
+        <v-divider></v-divider>
+        <v-card-actions>
+          <CtBtn @click="save()" type="primary" block>
+            Guardar
+          </CtBtn>
+        </v-card-actions>
+      </CtDialog>
+    </CtCard>
+  </v-app>
 </template>
 
 <script>

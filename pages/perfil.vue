@@ -1,13 +1,15 @@
 <template>
-  <CtCard title="Perfil" width="100%" min-height="100%" class="mx-auto">
-    <v-row dense>
-      <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
-      <v-container class="text-center">
-        <v-col cols="12" v-if="user.eth_wallet" v-html="user.eth_wallet" />
-        <CtBtn v-html="'Vincular MetaMask'" @click="linkWallet()" />
-      </v-container>
-    </v-row>
-  </CtCard>
+  <v-app>
+    <CtCard title="Perfil" width="100%" min-height="100%" class="mx-auto">
+      <v-row dense>
+        <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
+        <v-container class="text-center">
+          <v-col cols="12" v-if="user.eth_wallet" v-html="user.eth_wallet" />
+          <CtBtn v-html="'Vincular MetaMask'" @click="linkWallet()" />
+        </v-container>
+      </v-row>
+    </CtCard>
+  </v-app>
 </template>
 
 <script>

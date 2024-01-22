@@ -12,7 +12,11 @@ export default {
       { hid: 'description', name: 'description', content: 'Estudio de videojuegos Mad Fénix.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: true },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400&display=swap' },
+      { rel: 'stylesheet', href: '/css/main.css' },
     ],
     script: [
       { type: 'application/javascript', src: '/js/tailwind.js' },
@@ -50,8 +54,8 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: '#54B5EE',
-          secondary: '#424242',
+          primary: '#333139',
+          secondary: '#cccccc',
           accent: '#BCE0FD',
           error: '#FF5252',
           info: '#2196F3',

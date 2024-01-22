@@ -1,4 +1,5 @@
 <template>
+  <v-app>
     <CtCard title="Sala de espera" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
@@ -18,12 +19,13 @@
         </v-col>
       </v-row>
     </CtCard>
+  </v-app>
 </template>
 
 <script>
 export default {
   mounted() {
-    setTimeout(() => this.$router.push({ path: '/' }), 3000)
+    setTimeout(() => this.$router.push({ path: '/perfil' }), 3000)
   }
 }
 </script>

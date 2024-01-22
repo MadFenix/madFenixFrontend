@@ -1,4 +1,5 @@
 <template>
+  <v-app>
     <CtCard title="Recordar password" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
@@ -16,6 +17,7 @@
         </v-col>
       </v-row>
     </CtCard>
+  </v-app>
 </template>
 
 <script>
