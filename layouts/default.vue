@@ -45,11 +45,11 @@
             >
               Home
             </nuxt-link>
-            <nuxt-link to="/sobre-nosotros"
+            <!--<nuxt-link to="/sobre-nosotros"
                class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
             >
               Sobre nosotros
-            </nuxt-link>
+            </nuxt-link>-->
 
             <nuxt-link v-if="user" v-for="(item, key) in items" :key="key" :to="item.path"
               class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
@@ -131,11 +131,11 @@
                 >
                   Home
                 </nuxt-link>
-                <nuxt-link to="/sobre-nosotros"
+                <!--<nuxt-link to="/sobre-nosotros"
                            class="tw-block tw-px-6 tw-py-2 tw-font-medium tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full tw-text-dark-300 hover:tw-text-white hover:tw-bg-dark-700 sm:tw-inline-block"
                 >
                   Sobre nosotros
-                </nuxt-link>
+                </nuxt-link>-->
 
                 <div v-if="user" v-for="(item, key) in items" :key="key">
                   <nuxt-link :to="item.path"
@@ -210,11 +210,11 @@
                 Home
               </nuxt-link>
             </li>
-            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
+            <!--<li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
               <nuxt-link to="/sobre-nosotros">
                 Sobre nosotros
               </nuxt-link>
-            </li>
+            </li>-->
             <li v-if="user" v-for="(item, key) in items" :key="key" class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
               <nuxt-link :to="item.path" v-html="item.text" />
             </li>
