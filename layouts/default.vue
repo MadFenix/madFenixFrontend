@@ -49,7 +49,7 @@
                class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
             >
               Torneo inaugural
-            </nuxt-link>-->
+            </nuxt-link>
 
             <nuxt-link v-if="user" v-for="(item, key) in items" :key="key" :to="item.path"
               class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
