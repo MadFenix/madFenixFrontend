@@ -21,7 +21,8 @@
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
-    "snapsvg": "^0.5.1"
+    "snapsvg": "^0.5.1",
+    "vue-cookie-toggler": "^0.2.2"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.0",

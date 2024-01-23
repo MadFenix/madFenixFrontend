@@ -11,6 +11,16 @@
         <v-col cols="12">
           <CtTextField type="password" append-icon="mdi-lock" label="Password" v-model="signUpData.password"/>
         </v-col>
+        <v-col cols="12">
+          <v-row>
+            <v-col cols="2">
+              <v-checkbox outlined v-model="signUpCheck"></v-checkbox>
+            </v-col>
+            <v-col cols="10" class="tw-mt-3">
+              Acepto los <a href="/condiciones" target="_blank">términos y condiciones</a>
+            </v-col>
+          </v-row>
+        </v-col>
         <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
         <v-col cols="12">
           <CtBtn @click="signUp()" type="primary" block>
@@ -38,6 +48,7 @@ export default {
         email: '',
         password: '',
       },
+      signUpCheck: false,
     }
   },
 
@@ -49,8 +60,24 @@ export default {
 
   methods: {
     signUp(){
+      if (this.signUpData.name == "") {
+        this.setServerMessage("Debes poner un nombre de usuario.");
+        return;
+      }
+      if (this.signUpData.email == "") {
+        this.setServerMessage("Debes poner un correo.");
+        return;
+      }
+      if (this.signUpData.password == "" || this.signUpData.password.length < 8) {
+        this.setServerMessage("Debes poner un password de almenos 8 carácteres.");
+        return;
+      }
+      if (!this.signUpCheck) {
+        this.setServerMessage("Debes aceptar los términos y condiciones.");
+        return;
+      }
       this.$axios.post('/api/register', this.signUpData)
-        .then((response) => (response.data === 'User registered') ? this.$router.push({ path: '/' }) : this.setServerMessage(response.data))
+        .then((response) => (response.data === 'User registered') ? this.$router.push({ path: '/login' }) : this.setServerMessage(response.data))
     },
 
     ...mapActions({

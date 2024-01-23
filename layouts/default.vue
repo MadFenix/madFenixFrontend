@@ -91,19 +91,19 @@
             >
               <span
                 class="tw-absolute tw-block tw-h-1 tw-transition-all tw-duration-300 tw-ease-in-out tw-transform tw-rotate-0 tw-rounded-full tw-opacity-100 tw-bg-dark-300 group-hover:tw-bg-white"
-                :class="open ? 'top-2 left-1/2 w-0': 'w-full top-0 left-0'"
+                :class="open ? 'tw-top-2 tw-left-1/2 tw-w-0': 'tw-w-full tw-top-0 tw-left-0'"
               ></span>
               <span
                 class="tw-absolute tw-left-0 tw-block tw-w-full tw-h-1 tw-transition-all tw-duration-300 tw-ease-in-out tw-transform tw-rounded-full tw-opacity-100 tw-bg-dark-300 group-hover:tw-bg-white top-2"
-                :class="open ? 'rotate-45': 'rotate-0'"
+                :class="open ? 'tw-rotate-45': 'tw-rotate-0'"
               ></span>
               <span
                 class="tw-absolute tw-left-0 tw-block tw-w-full tw-h-1 tw-transition-all tw-duration-300 tw-ease-in-out tw-transform tw-rounded-full tw-opacity-100 tw-bg-dark-300 group-hover:tw-bg-white top-2"
-                :class="open ? '-rotate-45': 'rotate-0'"
+                :class="open ? 'tw--rotate-45': 'tw-rotate-0'"
               ></span>
               <span
                 class="tw-absolute tw-block tw-h-1 tw-transition-all tw-duration-300 tw-ease-in-out tw-transform tw-rotate-0 tw-rounded-full tw-opacity-100 tw-bg-dark-300 group-hover:tw-bg-white"
-                :class="open ? 'top-2 left-1/2 w-0': 'w-full left-0 top-4'"
+                :class="open ? 'tw-top-2 tw-left-1/2 tw-w-0': 'tw-w-full tw-left-0 tw-top-4'"
               ></span>
             </button>
 
@@ -233,6 +233,26 @@
                 Registro
               </nuxt-link>
             </li>
+            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
+              <nuxt-link to="/aviso-legal" >
+                Aviso legal
+              </nuxt-link>
+            </li>
+            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
+              <nuxt-link to="/condiciones" >
+                Términos y condiciones
+              </nuxt-link>
+            </li>
+            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
+              <nuxt-link to="/politica-de-cookies" >
+                Política de cookies
+              </nuxt-link>
+            </li>
+            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
+              <nuxt-link to="/politica-de-privacidad" >
+                Política de privacidad
+              </nuxt-link>
+            </li>
           </ul>
         </div>
 
@@ -279,13 +299,25 @@
         </div>
       </div>
     </footer>
+    <vue-cookie-toggler :cookies-groups="cookiesGroups"
+        title="Gestión de Cookies"
+        settings-title="Configuración de Cookies"
+        settings-label="Ajustes"
+        accept-label="Aceptar todo"
+        save-label="Guardar selección"
+        cancel-label="Cancelar">
+      Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar las cookies haciendo click en "Ajustes”. Para más información puedes visitar nuestra <a href="/politica-de-cookies" target="_blank">Política de cookies</a>.
+    </vue-cookie-toggler>
   </div>
 </template>
 
 <script>
-import { mapMutations, mapActions } from 'vuex'
+import { mapMutations, mapActions } from 'vuex';
+import VueCookieToggler from 'vue-cookie-toggler';
 
 export default {
+  components: {VueCookieToggler},
+
   props: {
     source: String,
   },
@@ -307,6 +339,35 @@ export default {
         title: 'Perfil de Instagram',
       },
     ],
+    accept: false,
+    settings: true,
+    save: true,
+    cancel: false,
+    cookiesGroups: [
+      {
+        category: 'essential',
+        name: 'Funcionales',
+        description:'Necesarias para navegar en este sitio y utilizar sus funciones.<br>' +
+          'Identificarle como usuario y almacenar sus preferencias como idioma y moneda.<br>' +
+          'Personalizar su experiencia en base con su navegación.<br>' +
+          'Cookies de terceros con propósitos funcionales.<br>' +
+          '<a href="/politica-de-cookies" target="_blank">Más información sobre las cookies</a>.',
+        active: true,
+        required: true,
+      },
+      {
+        category: 'analytics',
+        name: 'Analítica',
+        description:'Permiten medir la actividad de los usuarios y elaborar estadísticas de navegación.',
+        active: false,
+      },
+      {
+        category: 'social_networking',
+        name: 'Publicidad',
+        description:'Permiten regular la publicidad de la web según el usuario.',
+        active: false,
+      },
+    ]
   }),
 
   computed: {
