@@ -131,7 +131,7 @@
         >
           <img
             class="tw-absolute tw-inset-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-align-middle tw-rounded-3xl"
-            src="img/home/chicaJugandoA2Elevado.jpg"
+            src="/img/home/chicaJugandoA2Elevado.jpg"
           />
         </div>
       </div>
@@ -256,7 +256,7 @@
                 target="_blank"
               >
                   <span
-                    class="absolute tw-top-0 tw-left-0 tw-z-10 tw-block tw-w-full tw-h-full tw-transition-all tw-ease-in-out tw-rounded-full tw-bg-gradient-to-r tw-duration-250 tw-from-dark-800 tw-to-dark-900 md:tw-w-14 md:group-hover:tw-w-full"
+                    class="tw-absolute tw-top-0 tw-left-0 tw-z-10 tw-block tw-w-full tw-h-full tw-transition-all tw-ease-in-out tw-rounded-full tw-bg-gradient-to-r tw-duration-250 tw-from-dark-800 tw-to-dark-900 md:tw-w-14 md:group-hover:tw-w-full"
                   ></span>
                 <span class="tw-relative tw-z-20">Únete con tu proyecto</span>
               </a>
@@ -335,7 +335,7 @@
 
             <!-- Feature image -->
             <img
-              src="images/work-image-03.jpg"
+              src="/img/placeholder/work-image-01.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
           </div>
@@ -388,7 +388,7 @@
 
             <!-- Feature image -->
             <img
-              src="images/work-image-02.jpg"
+              src="/img/placeholder/work-image-02.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
           </div>
@@ -441,7 +441,7 @@
 
             <!-- Feature image -->
             <img
-              src="images/work-image-03.jpg"
+              src="/img/placeholder/work-image-03.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
           </div>
