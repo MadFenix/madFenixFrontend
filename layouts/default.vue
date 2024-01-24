@@ -313,11 +313,8 @@
 
 <script>
 import { mapMutations, mapActions } from 'vuex';
-import VueCookieToggler from 'vue-cookie-toggler';
 
 export default {
-  components: {VueCookieToggler},
-
   props: {
     source: String,
   },
