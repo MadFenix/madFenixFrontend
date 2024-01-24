@@ -65,5 +65,50 @@
 
 <script>
 export default {
+  head: {
+    title: 'Lanzamiento de la página web - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Torneos intercomunitarios y personalizados, el lanzamiento de nuestro primer juego y las exclusivas Plumas Fénix.'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://madfenix.com/blog/2024-01-22-plataforma-web'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Lanzamiento de la página web - Mad Fénix'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://madfenix.com/img/blog/encuentraTuTribu.jpg'
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: '1067'
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: '395'
+      },
+      {
+        hid: 'og:image:type',
+        name: 'og:image:type',
+        content: 'image/jpg'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@MadFenixGames'
+      },
+    ]
+  },
 }
 </script>

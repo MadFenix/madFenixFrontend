@@ -37,5 +37,15 @@
 
 <script>
   export default {
+    head: {
+      title: 'Aviso legal - Mad Fénix',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Aviso legal de Mad Fénix.'
+        }
+      ]
+    },
   }
 </script>

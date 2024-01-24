@@ -24,6 +24,17 @@
 
 <script>
 export default {
+  head: {
+    title: 'Sala de espera - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sala de espera en Mad Fénix.'
+      }
+    ]
+  },
+
   mounted() {
     setTimeout(() => this.$router.push({ path: '/perfil' }), 3000)
   }

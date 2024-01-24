@@ -62,5 +62,15 @@
 
 <script>
   export default {
+    head: {
+      title: 'Términos y condiciones - Mad Fénix',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Términos y condiciones de Mad Fénix.'
+        }
+      ]
+    },
   }
 </script>

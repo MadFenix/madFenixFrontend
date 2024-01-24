@@ -25,6 +25,17 @@
 import { mapActions } from 'vuex'
 
 export default {
+  head: {
+    title: 'Recordar password - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Recordar password en Mad Fénix.'
+      }
+    ]
+  },
+
   data(){
     return {
       forgotData: {

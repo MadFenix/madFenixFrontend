@@ -57,5 +57,50 @@
 
 <script>
 export default {
+  head: {
+    title: 'Buscamos creadores de contenido - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Mad Fénix busca creadores de contenido apasionad@s y creativos para aliarse y crecer juntos.'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://madfenix.com/blog/2024-01-22-buscamos-creadores-de-contenido'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Buscamos creadores de contenido - Mad Fénix'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://madfenix.com/img/blog/buscamosCreadores.jpg'
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: '1067'
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: '405'
+      },
+      {
+        hid: 'og:image:type',
+        name: 'og:image:type',
+        content: 'image/jpg'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@MadFenixGames'
+      },
+    ]
+  },
 }
 </script>

@@ -52,6 +52,17 @@ import { mapActions } from 'vuex'
 export default {
   middleware: 'authenticated',
 
+  head: {
+    title: 'Wallet - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Wallet en Mad Fénix.'
+      }
+    ]
+  },
+
   data() {
     return {
       wallet: null,

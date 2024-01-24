@@ -12,5 +12,15 @@
 
 <script>
 export default {
+  head: {
+    title: 'Día a día - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Día a día.'
+      }
+    ]
+  },
 }
 </script>

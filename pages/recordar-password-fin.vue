@@ -22,5 +22,15 @@
 
 <script>
 export default {
+  head: {
+    title: 'Recordar password fin - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Recordar password fin en Mad Fénix.'
+      }
+    ]
+  },
 }
 </script>

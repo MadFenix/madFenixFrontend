@@ -21,6 +21,17 @@ export default {
   components: {CtBtn},
   middleware: 'authenticated',
 
+  head: {
+    title: 'Perfil - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Perfil en Mad Fénix.'
+      }
+    ]
+  },
+
   data() {
     return {
       etherProvider: null

@@ -498,5 +498,50 @@
 
 <script>
 export default {
+  head: {
+    title: 'Torneo inaugural - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Torneo inaugural de Mad Fénix.'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://madfenix.com/torneo-inaugural'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Torneo inaugural - Mad Fénix'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://madfenix.com/img/home/chicaJugandoA2Elevado.jpg'
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: '1067'
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: '684'
+      },
+      {
+        hid: 'og:image:type',
+        name: 'og:image:type',
+        content: 'image/jpg'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@MadFenixGames'
+      },
+    ]
+  },
 }
 </script>

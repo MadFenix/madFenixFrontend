@@ -41,6 +41,17 @@
 import { mapActions } from 'vuex'
 
 export default {
+  head: {
+    title: 'Registro - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Registro en Mad Fénix.'
+      }
+    ]
+  },
+
   data(){
     return {
       signUpData: {

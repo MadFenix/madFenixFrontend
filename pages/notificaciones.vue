@@ -22,6 +22,17 @@ import { mapActions } from 'vuex'
 export default {
   middleware: 'authenticated',
 
+  head: {
+    title: 'Notificaciones - Mad Fénix',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Notificaciones en Mad Fénix.'
+      }
+    ]
+  },
+
   data() {
     return {
       events: [],

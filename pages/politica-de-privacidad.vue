@@ -54,5 +54,15 @@
 
 <script>
   export default {
+    head: {
+      title: 'Política de privacidad - Mad Fénix',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Política de privacidad de Mad Fénix.'
+        }
+      ]
+    },
   }
 </script>

@@ -60,5 +60,15 @@
 
 <script>
   export default {
+    head: {
+      title: 'Política de cookies - Mad Fénix',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Política de cookies de Mad Fénix.'
+        }
+      ]
+    },
   }
 </script>
