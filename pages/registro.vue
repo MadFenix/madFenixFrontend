@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <CtCard title="Registro" width="300" class="mx-auto">
+    <CtCard title="Registro" width="300" class="mx-auto tw-mb-7">
       <v-row dense>
         <v-col cols="12" class="mt-5">
           <CtTextField append-icon="mdi-account" label="Nombre" v-model="signUpData.name"/>
@@ -18,6 +18,16 @@
             </v-col>
             <v-col cols="10" class="tw-mt-3">
               Acepto los <a href="/condiciones" target="_blank">términos y condiciones</a>
+            </v-col>
+          </v-row>
+        </v-col>
+        <v-col cols="12">
+          <v-row>
+            <v-col cols="2">
+              <v-checkbox outlined v-model="signUpData.newsletter"></v-checkbox>
+            </v-col>
+            <v-col cols="10" class="tw-mt-3">
+              Quiero recibir la newsletter
             </v-col>
           </v-row>
         </v-col>
@@ -41,6 +51,8 @@
 import { mapActions } from 'vuex'
 
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Registro - Mad Fénix',
     meta: [
@@ -58,6 +70,7 @@ export default {
         name: '',
         email: '',
         password: '',
+        newsletter: false,
       },
       signUpCheck: false,
     }
@@ -66,7 +79,14 @@ export default {
   computed: {
     serverMessage () {
       return this.$store.state.serverMessage.serverMessage
-    }
+    },
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 
   methods: {

@@ -11,7 +11,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Día a día - Mad Fénix',
     meta: [
@@ -21,6 +24,16 @@ export default {
         content: 'Día a día.'
       }
     ]
+  },
+
+  computed: {
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 }
 </script>

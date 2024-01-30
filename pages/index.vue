@@ -478,6 +478,8 @@
 import { mapActions } from 'vuex';
 
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Creamos juegos que mueven comunidades - Mad Fénix',
     meta: [
@@ -533,9 +535,13 @@ export default {
     serverMessage () {
       return this.$store.state.serverMessage.serverMessage
     },
+    token () {
+      return this.$store.state.user.token
+    },
   },
 
   mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 
   methods: {

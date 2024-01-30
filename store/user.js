@@ -6,7 +6,8 @@ export const state = () => ({
 export const actions = {
   setToken(state, token) {
     this.$axios.setToken(token, 'Bearer')
-    window.document.cookie = 'token=' + token
+    //window.document.cookie = 'token=' + token
+    this.$cookies.set('token', token)
     state.commit('updateToken', token)
   },
 
@@ -14,7 +15,8 @@ export const actions = {
     this.$axios.get('/api/user')
       .then((response) => {
         if (response.data && response.data.data) {
-          window.document.cookie = 'user=' + JSON.stringify(response.data.data)
+          //window.document.cookie = 'user=' + JSON.stringify(response.data.data)
+          this.$cookies.set('user', JSON.stringify(response.data.data))
           state.commit('updateUser', response.data.data)
         } else {
           state.commit('removeUser')

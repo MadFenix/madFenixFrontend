@@ -25,6 +25,8 @@
 import { mapActions } from 'vuex'
 
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Recordar password - Mad Fénix',
     meta: [
@@ -47,7 +49,14 @@ export default {
   computed: {
     serverMessage () {
       return this.$store.state.serverMessage.serverMessage
-    }
+    },
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 
   methods: {

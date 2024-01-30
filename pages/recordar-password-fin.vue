@@ -21,7 +21,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Recordar password fin - Mad Fénix',
     meta: [
@@ -31,6 +34,16 @@ export default {
         content: 'Recordar password fin en Mad Fénix.'
       }
     ]
+  },
+
+  computed: {
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 }
 </script>

@@ -3,7 +3,7 @@
     <CtCard title="Sala de espera" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
-          En breves momentos serás redirigido hacia la home.
+          En breves momentos serás redirigido hacia el perfil.
         </v-col>
         <v-col cols="12" class="mt-5">
           <v-row>
@@ -13,8 +13,8 @@
           </v-row>
         </v-col>
         <v-col cols="12" class="my-5">
-          <CtBtn to="/" type="accent" block>
-            Ir a la home
+          <CtBtn to="/perfil" type="accent" block>
+            Ir al perfil
           </CtBtn>
         </v-col>
       </v-row>

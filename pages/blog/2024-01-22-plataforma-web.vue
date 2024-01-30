@@ -64,7 +64,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Lanzamiento de la página web - Mad Fénix',
     meta: [
@@ -109,6 +112,16 @@ export default {
         content: '@MadFenixGames'
       },
     ]
+  },
+
+  computed: {
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 }
 </script>

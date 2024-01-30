@@ -43,9 +43,13 @@ export default {
     serverMessage () {
       return this.$store.state.serverMessage.serverMessage
     },
+    token () {
+      return this.$store.state.user.token
+    },
   },
 
   mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
     this.fetch()
   },
 

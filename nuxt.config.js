@@ -87,7 +87,10 @@ export default {
           }
         ]
       },
-    ]
+    ],
+    [
+      'cookie-universal-nuxt',
+    ],
   ],
   /*
   ** Axios module configuration

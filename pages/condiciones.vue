@@ -61,7 +61,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
   export default {
+    middleware: 'basic',
+
     head: {
       title: 'Términos y condiciones - Mad Fénix',
       meta: [
@@ -71,6 +74,16 @@
           content: 'Términos y condiciones de Mad Fénix.'
         }
       ]
+    },
+
+    computed: {
+      token () {
+        return this.$store.state.user.token
+      },
+    },
+
+    mounted() {
+      this.$axios.setToken(this.token, 'Bearer')
     },
   }
 </script>

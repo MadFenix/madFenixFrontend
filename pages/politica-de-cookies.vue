@@ -59,7 +59,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
   export default {
+    middleware: 'basic',
+
     head: {
       title: 'Política de cookies - Mad Fénix',
       meta: [
@@ -69,6 +72,16 @@
           content: 'Política de cookies de Mad Fénix.'
         }
       ]
+    },
+
+    computed: {
+      token () {
+        return this.$store.state.user.token
+      },
+    },
+
+    mounted() {
+      this.$axios.setToken(this.token, 'Bearer')
     },
   }
 </script>

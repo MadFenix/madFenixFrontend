@@ -5,7 +5,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
+  middleware: 'basic',
+
   head: {
     title: 'Sobre nosotros - Mad Fénix',
     meta: [
@@ -15,6 +18,16 @@ export default {
         content: 'Sobre nosotros de Mad Fénix.'
       }
     ]
+  },
+
+  computed: {
+    token () {
+      return this.$store.state.user.token
+    },
+  },
+
+  mounted() {
+    this.$axios.setToken(this.token, 'Bearer')
   },
 }
 </script>

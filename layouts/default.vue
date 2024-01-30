@@ -383,6 +383,7 @@ export default {
     logout () {
       this.$axios.post('/api/logout')
         .then(() => this.afterLogout())
+        .catch(() => this.afterLogout())
     },
 
     ...mapActions({
