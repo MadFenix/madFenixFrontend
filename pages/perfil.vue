@@ -46,6 +46,11 @@
           </div>
         </div>
       </section>
+      <div class="tw-flex tw-items-center tw-py-5 tw-text-white tw-justify-center">
+        <nuxt-link to="/eliminar-cuenta" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Eliminar cuenta
+        </nuxt-link>
+      </div>
     </div>
 </template>
 

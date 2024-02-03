@@ -1,20 +1,20 @@
 <template>
   <v-app>
-    <CtCard title="Modificar password" width="300" class="mx-auto">
+    <CtCard title="Eliminar cuenta" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
-          <CtTextField append-icon="mdi-email" label="Email" v-model="forgotData.email"/>
+          Con esta acción eliminarás la cuenta de Mad Fénix junto a todos los datos introducidos en la aplicación 2 Elevado de la Play Store, App Store y Itch.io. El proceso puede tardar hasta 48 horas laborables.
+        </v-col>
+        <v-col cols="12" class="mt-5">
+          <CtTextField append-icon="mdi-email" label="Email" v-model="deleteAccount.email"/>
         </v-col>
         <v-col cols="12">
-          <CtTextField type="password" append-icon="mdi-lock" label="Password" v-model="forgotData.password"/>
-        </v-col>
-        <v-col cols="12">
-          <CtTextField type="password" append-icon="mdi-lock" label="Confirmación password" v-model="forgotData.password_confirmation"/>
+          <CtTextField type="password" append-icon="mdi-lock" label="Password" v-model="deleteAccount.password"/>
         </v-col>
         <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
         <v-col cols="12">
-          <CtBtn @click="forgot()" type="primary" block>
-            Enviar
+          <CtBtn @click="deleteAccountAction()" type="primary" block>
+            Eliminar cuenta
           </CtBtn>
         </v-col>
       </v-row>
@@ -27,23 +27,21 @@ import { mapActions } from 'vuex'
 
 export default {
   head: {
-    title: 'Recordar password - Mad Fénix',
+    title: 'Eliminar cuenta - Mad Fénix',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Recordar password en Mad Fénix.'
+        content: 'Eliminar cuenta en Mad Fénix.'
       }
     ]
   },
 
   data(){
     return {
-      forgotData: {
+      deleteAccount: {
         email: '',
         password: '',
-        password_confirmation: '',
-        token: '',
       },
     }
   },
@@ -62,10 +60,9 @@ export default {
   },
 
   methods: {
-    forgot(){
-      (this.$router.currentRoute.query.token) ? this.forgotData.token = this.$router.currentRoute.query.token : this.$router.push('/login')
-      this.$axios.post('/api/forgotReset', this.forgotData)
-        .then((response) => (response.data === 'Password reset') ? this.$router.push('/login') : this.setServerMessage(response.data))
+    deleteAccountAction(){
+      this.$axios.post('/api/deleteAccount', this.deleteAccount)
+        .then((response) => (response.data === 'Cuenta en proceso de eliminación') ? this.$router.push('/') : this.setServerMessage(response.data))
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
     },
 
