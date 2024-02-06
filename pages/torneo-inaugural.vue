@@ -617,7 +617,7 @@
               <h2
                 class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
               >
-                KZEstudios
+                KZEstudio
               </h2>
             </div>
           </div>
