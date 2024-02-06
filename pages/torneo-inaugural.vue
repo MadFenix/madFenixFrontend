@@ -299,22 +299,14 @@
             <div
               class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
             >
-              <p
-                class="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-xs tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-600 tw-to-dark-700"
-              >
-                Frase del proyecto
-              </p>
               <h2
                 class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
               >
-                Nombre del proyecto.
+                Ivan.hbar de CriptoATH
               </h2>
-              <p class="tw-mt-4 tw-text-lg lg:tw-mt-6 tw-text-dark-300">
-                Descripción para el torneo.
-              </p>
             </div>
           </div>
-          <div
+          <a href="https://twitter.com/CriptoATH" target="_blank"
             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
           >
             <div
@@ -335,10 +327,10 @@
 
             <!-- Feature image -->
             <img
-              src="/img/placeholder/work-image-01.jpg"
+              src="/img/aliados/criptoath.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
-          </div>
+          </a>
         </div>
 
         <!-- Feature -->
@@ -352,23 +344,15 @@
             <div
               class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
             >
-              <p
-                class="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-xs tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-600 tw-to-dark-700"
-              >
-                Frase del proyecto
-              </p>
               <h2
                 class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
               >
-                Nombre del proyecto
+                Cocobay
               </h2>
-              <p class="tw-mt-4 tw-text-lg lg:tw-mt-6 tw-text-dark-300">
-                Descripción para el torneo.
-              </p>
             </div>
           </div>
-          <div
-            class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none"
+          <a href="https://twitter.com/cocobayworld" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none"
           >
             <div
               class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-right-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-right-4 sm:tw-top-8 sm:tw-right-8"
@@ -388,10 +372,10 @@
 
             <!-- Feature image -->
             <img
-              src="/img/placeholder/work-image-02.jpg"
+              src="/img/aliados/cocobay.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
-          </div>
+          </a>
         </div>
 
         <!-- Feature -->
@@ -405,23 +389,15 @@
             <div
               class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
             >
-              <p
-                class="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-xs tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-600 tw-to-dark-700"
-              >
-                Frase del proyecto
-              </p>
               <h2
                 class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
               >
-                Nombre del proyecto.
+                Tony Emotions
               </h2>
-              <p class="tw-mt-4 tw-text-lg lg:tw-mt-6 tw-text-dark-300">
-                Descripción para el torneo.
-              </p>
             </div>
           </div>
-          <div
-            class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
+          <a href="https://twitter.com/TonyEmotions" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
           >
             <div
               class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-left-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-left-4 sm:tw-top-8 sm:tw-left-8"
@@ -441,10 +417,280 @@
 
             <!-- Feature image -->
             <img
-              src="/img/placeholder/work-image-03.jpg"
+              src="/img/aliados/tonyemotions.jpg"
               class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
             />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-order-2 lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                Bookers
+              </h2>
+            </div>
           </div>
+          <a href="https://twitter.com/bookers_nft" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-right-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-right-4 sm:tw-top-8 sm:tw-right-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/bookers.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                cicloTIC
+              </h2>
+            </div>
+          </div>
+          <a href="https://twitter.com/CicloTIC" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-left-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-left-4 sm:tw-top-8 sm:tw-left-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/ciclotic.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-order-2 lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                Fizok
+              </h2>
+            </div>
+          </div>
+          <a href="https://twitter.com/fizok_web3" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-right-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-right-4 sm:tw-top-8 sm:tw-right-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/fizok.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                guille.hbar
+              </h2>
+            </div>
+          </div>
+          <a href="https://twitter.com/aguille_" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-left-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-left-4 sm:tw-top-8 sm:tw-left-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/guille.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-order-2 lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                KZEstudios
+              </h2>
+            </div>
+          </div>
+          <a href="https://twitter.com/EstudioKz" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-right-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-right-4 sm:tw-top-8 sm:tw-right-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/kzestudios.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
+        </div>
+
+        <!-- Feature -->
+        <div
+          class="tw-relative tw-mt-16 sm:tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12"
+        >
+          <!-- Feature text -->
+          <div
+            class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start"
+          >
+            <div
+              class="tw-w-full tw-max-w-lg tw-text-left md:tw-text-center lg:tw-text-left md:tw-max-w-2xl"
+            >
+              <h2
+                class="tw-mt-4 tw-text-2xl tw-font-extrabold tw-text-white lg:tw-mt-6 sm:tw-text-3xl md:tw-text-4xl"
+              >
+                Yis
+              </h2>
+            </div>
+          </div>
+          <a href="https://twitter.com/Yisbelpd" target="_blank"
+             class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none"
+          >
+            <div
+              class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-left-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-left-4 sm:tw-top-8 sm:tw-left-8"
+            >
+              <svg
+                class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700"
+                preserveaspectratio="none"
+                viewbox="0 0 100 100"
+                fill="currentcolor"
+              >
+                <polygon points="0,0 100,0 0,100" />
+              </svg>
+              <div
+                class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"
+              ></div>
+            </div>
+
+            <!-- Feature image -->
+            <img
+              src="/img/aliados/yis.jpg"
+              class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl"
+            />
+          </a>
         </div>
       </div>
     </section>
