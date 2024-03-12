@@ -96,7 +96,7 @@
             </p>
             <div class="tw-z-30 tw-w-full tw-max-w-lg tw-mx-auto tw-mt-6 tw-text-center lg:tw-text-left lg:tw-max-w-none md:tw-max-w-2xl">
               <h1 class="tw-text-4xl tw-font-extrabold tw-text-white sm:tw-text-5xl md:tw-text-6xl lg:tw-text-5xl xl:tw-text-6xl">
-                Lanzamos 2Elevado el 15 de Febrero
+                Lanzamos 2Elevado el 15 de Mayo
               </h1>
               <p class="tw-mt-6 tw-text-xl tw-text-dark-300">
                 Un juego donde sumas números iguales para potenciarlos. Igual que en tus hablidades, las que más trabajas más rendimiento dan.
@@ -286,7 +286,58 @@
         <div class="tw-order-2 tw-mt-12 tw-overflow-hidden md:tw-mt-0 md:tw-order-1 md:tw-col-span-9">
           <!-- Posts container -->
           <div class="tw-grid tw-gap-6 lg:tw-grid-cols-2 md:tw-gap-8">
-            <!-- Post 1 -->
+            <!-- Post -->
+            <div class="tw-max-w-lg tw-mx-auto tw-shadow-xl tw-rounded-3xl tw-bg-dark-700">
+              <nuxt-link to="/blog/2024-03-12-tokens-mad-fenix">
+                <div class="tw-w-full tw-h-64 tw-bg-center tw-bg-cover tw-rounded-t-3xl" data-background-image="images/work-image-01.jpg" style="background-image: url('/img/blog/tokensWeb3.jpg')">
+                  <p class="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-mt-4 tw-ml-6 tw-text-xs tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r lg:tw-ml-4 xl:tw-ml-6 tw-from-dark-700 tw-to-dark-800">
+                    Bases
+                  </p>
+                </div>
+              </nuxt-link>
+              <div class="tw-w-full tw-p-6 lg:tw-p-4 xl:tw-p-6">
+                <div class="tw-flex tw-flex-wrap tw-w-full">
+                  <div class="tw-flex tw-items-center tw-justify-start tw-w-1/2">
+                    <!-- TablerIcon name: calendar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-5 tw-h-5 tw-text-dark-400" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <rect x="4" y="5" width="16" height="16" rx="2"></rect>
+                      <line x1="16" y1="3" x2="16" y2="7"></line>
+                      <line x1="8" y1="3" x2="8" y2="7"></line>
+                      <line x1="4" y1="11" x2="20" y2="11"></line>
+                      <line x1="11" y1="15" x2="12" y2="15"></line>
+                      <line x1="12" y1="15" x2="12" y2="18"></line>
+                    </svg>
+                    <div class="tw-ml-2 tw-text-base tw-font-medium tw-leading-6 tw-text-dark-400">
+                      12 de Marzo 2024
+                    </div>
+                  </div>
+                  <div class="tw-flex tw-justify-end tw-w-1/2 tw-space-x-1">
+                    <!-- TablerIcon name: brand-tailwind -->
+                    <svg class="tw-w-6 tw-h-6 tw-text-dark-400" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" stroke="currentColor" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path class="st1" d="M21.8,10C15,14.5,7.1,23.4,5,29.4"/><path class="st0" d="M5.7,22.4c-0.1-2.6,0.2-6,2-7.8c8.9-8.9,21-11.3,21-11.3s-2.5,9.8-8.5,17.7l0,0H15l2.4,3.3  c-1.8,1.8-5.2,2.1-7.7,2"/>
+                      </svg>
+                  </div>
+                </div>
+                <nuxt-link to="/blog/2024-03-12-tokens-mad-fenix">
+                  <h3 class="tw-mt-6 tw-text-xl tw-font-semibold tw-leading-6 tw-text-white md:tw-text-2xl">
+                    Tokens de Mad Fénix
+                  </h3>
+                </nuxt-link>
+                <p class="tw-mt-1 tw-text-base tw-leading-relaxed tw-text-dark-300">
+                  Conceptualización de los tres tokens del ecosistema: Plumas Fénix, Piezas de Oro y Dragones Custodio.
+                </p>
+                <div class="mt-8">
+                  <nuxt-link to="/blog/2024-03-12-tokens-mad-fenix" class="tw-relative tw-inline-flex tw-items-center tw-justify-center tw-w-auto tw-h-12 tw-px-8 tw-text-base tw-font-medium tw-leading-snug tw-text-white md:tw-h-14 tw-group">
+                    <span class="tw-absolute tw-top-0 tw-left-0 tw-z-10 tw-block tw-w-full tw-h-full tw-transition-all tw-ease-in-out tw-rounded-full tw-bg-gradient-to-r tw-duration-250 tw-from-dark-800 tw-to-dark-900 md:tw-w-14 md:group-hover:tw-w-full"></span>
+                    <span class="tw-relative tw-z-20">Ver noticia</span>
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Post -->
             <div class="tw-max-w-lg tw-mx-auto tw-shadow-xl tw-rounded-3xl tw-bg-dark-700">
               <nuxt-link to="/blog/2024-01-22-plataforma-web">
                 <div class="tw-w-full tw-h-64 tw-bg-center tw-bg-cover tw-rounded-t-3xl" data-background-image="images/work-image-01.jpg" style="background-image: url('/img/blog/encuentraTuTribu.jpg')">
@@ -336,7 +387,7 @@
               </div>
             </div>
 
-            <!-- Post 2 -->
+            <!-- Post -->
             <div class="tw-max-w-lg tw-mx-auto tw-shadow-xl tw-rounded-3xl tw-bg-dark-700">
               <nuxt-link to="/blog/2024-01-22-buscamos-creadores-de-contenido">
                 <div class="tw-w-full tw-h-64 tw-bg-center tw-bg-cover tw-rounded-t-3xl" data-background-image="images/work-image-01.jpg" style="background-image: url('/img/blog/buscamosCreadores.jpg')">
