@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <CtCard title="Canjear cupón para plumas" width="300" class="mx-auto">
+    <CtCard title="Canjear cupón para oro" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
           <CtTextField append-icon="mdi-ticket" label="Cupón" v-model="couponData.coupon"/>
@@ -64,7 +64,7 @@ export default {
     },
 
     useCoupon(){
-      this.$axios.post('/api/coupon/usePlumasCoupon', this.couponData)
+      this.$axios.post('/api/coupon/useOroCoupon', this.couponData)
         .then((response) => this.afterUseCoupon(response))
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
     },

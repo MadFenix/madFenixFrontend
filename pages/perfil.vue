@@ -53,7 +53,47 @@
         </div>
       </section>
       <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center tw-text-white">
-        Para transferir Plumas desde Hedera a tu cuenta debes enviar las plumas que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<span class="tw-text-3xl" v-html="'deposito:' + user.id" />Este proceso puede tardar de 10 a 20 minutos.
+        <b>Para transferir Plumas desde Hedera a tu cuenta</b><br>
+        Debes enviar las plumas que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<span class="tw-text-3xl" v-html="'deposito:' + user.id" /><br>
+        Este proceso puede tardar de 10 a 20 minutos.<br>
+        No envíes decimales ya que se perderán.
+      </div>
+
+      <section class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
+        <!-- CTA card -->
+        <div class="tw-relative tw-py-16 tw-rounded-3xl tw-bg-dark-700 lg:tw-py-20">
+          <!-- Right background diagonal -->
+          <svg class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
+            <polygon points="0,0 100,0 0,100"></polygon>
+          </svg>
+          <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"></div>
+
+          <!-- CTA content -->
+          <div class="tw-relative tw-z-30 tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center sm:tw-px-16 lg:tw-flex-row lg:tw-text-left">
+            <div class="tw-max-w-lg tw-text-2xl tw-font-bold sm:tw-text-4xl lg:tw-w-1/2">
+              <h5 class="tw-text-4xl tw-font-extrabold tw-tracking-tight tw-text-white sm:tw-text-5xl">
+                Oro: <span v-if="perfil" v-html="perfil.oro" /><span v-else>...</span>
+              </h5>
+            </div>
+            <div class="tw-flex tw-justify-center tw-max-w-lg tw-mt-10 lg:tw-w-1/2 lg:tw-mt-0 lg:tw-justify-end">
+              <div>
+                <nuxt-link to="/canjear-cupon-oro" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+                  Canjea un cupón
+                </nuxt-link>
+                <br>
+                <nuxt-link to="/transfiere-oro-a-hedera" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+                  Transfiere Oro a Hedera
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center tw-text-white">
+        <b>Para transferir Oro desde Hedera a tu cuenta</b><br>
+        Debes enviar el oro que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<span class="tw-text-3xl" v-html="'deposito:' + user.id" /><br>
+        Este proceso puede tardar de 10 a 20 minutos.<br>
+        No envíes decimales ya que se perderán.
       </div>
       <div class="tw-flex tw-items-center tw-py-5 tw-text-white tw-justify-center">
         <nuxt-link to="/eliminar-cuenta" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
