@@ -3,7 +3,7 @@
     <v-row dense>
       <v-spacer />
       <v-col cols="6" class="my-5">
-        IMPORTANTE: Debes agregar el token 0.0.5068304 a tu wallet. Ahora mismo el token de oro es de TEST por tanto perderás todo el oro que te envíes ahora.
+        IMPORTANTE: Debes agregar el token 0.0.5127766 a tu wallet.
       </v-col>
       <v-spacer />
     </v-row>

@@ -3,7 +3,7 @@
     <v-row dense>
       <v-spacer />
       <v-col cols="6" class="my-5">
-        IMPORTANTE: Debes agregar el token 0.0.4919885 a tu wallet. Ahora mismo el token de plumas es de TEST por tanto perderás todas las plumas que te envíes ahora.
+        IMPORTANTE: Debes agregar el token 0.0.5127845 a tu wallet.
       </v-col>
       <v-spacer />
     </v-row>
