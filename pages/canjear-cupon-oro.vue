@@ -28,12 +28,12 @@ export default {
   middleware: 'authenticated',
 
   head: {
-    title: 'Login - Mad Fénix',
+    title: 'Canjear cupón oro - Mad Fénix',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Login en Mad Fénix.'
+        content: 'Canjear cupón oro en Mad Fénix.'
       }
     ]
   },

@@ -323,6 +323,7 @@ export default {
     open: null,
     items: [
       { icon: ['fas', 'user'], text: 'Perfil', path: '/perfil' },
+      { icon: ['fas', 'user'], text: 'Temporada', path: '/temporada' },
     ],
     footerItems: [
       {
