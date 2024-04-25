@@ -3,24 +3,21 @@
     <v-row dense>
       <v-spacer />
       <v-col cols="6" class="my-5">
-        IMPORTANTE: Debes agregar el token 0.0.5127845 a tu wallet.
+        IMPORTANTE: Debes agregar el token <span v-html="nft_token_id" /> a tu wallet.
       </v-col>
       <v-spacer />
     </v-row>
     <v-row dense>
       <v-spacer />
       <v-col cols="6" class="mb-5">
-        Las transferencias pueden tardar de 5 a 15 minutos. Si hay problemas en la red, tras 30 minutos no te llegan tus plumas o tienes cualquier problema contacta con iam@valentigamez.com o en Twitter en la cuenta @MadFenixGames o @iamvalentigamez.
+        Las transferencias pueden tardar de 5 a 15 minutos. Si hay problemas en la red, tras 30 minutos no te llega tu oro o tienes cualquier problema contacta con iam@valentigamez.com o en Twitter en la cuenta @MadFenixGames o @iamvalentigamez.
       </v-col>
       <v-spacer />
     </v-row>
-    <CtCard title="Transferir plumas a Hedera" width="300" class="mx-auto">
+    <CtCard title="Transferir NFT a Hedera" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
           <CtTextField append-icon="mdi-ticket" label="Id de hedera" v-model="transactionData.id_hedera"/>
-        </v-col>
-        <v-col cols="12" class="mt-5">
-          <CtTextField append-icon="mdi-ticket" label="Cantidad de plumas (Mínimo 1)" v-model="transactionData.plumas"/>
         </v-col>
         <v-col cols="12" v-if="serverMessage" v-html="serverMessage" class="error--text" />
         <v-col cols="12">
@@ -45,7 +42,7 @@ export default {
   middleware: 'authenticated',
 
   head: {
-    title: 'Transferir plumas a Hedera - Mad Fénix',
+    title: 'Transferir NFT a Hedera - Mad Fénix',
     meta: [
       {
         hid: 'description',
@@ -58,8 +55,9 @@ export default {
     return {
       transactionData: {
         id_hedera: '',
-        plumas: '',
+        nft_identification_id: '',
       },
+      nft_token_id: '',
     }
   },
 
@@ -73,7 +71,9 @@ export default {
   },
 
   mounted() {
-    this.$axios.setToken(this.token, 'Bearer')
+    this.$axios.setToken(this.token, 'Bearer');
+    this.transactionData.nft_identification_id = this.$route.query.nft_identification_id;
+    this.nft_token_id = this.$route.query.nft_token_id;
   },
 
   methods: {
@@ -82,7 +82,7 @@ export default {
     },
 
     transferToHedrera(){
-      this.$axios.post('/api/blockchain/transferPlumasToHedera', this.transactionData)
+      this.$axios.post('/api/blockchain/transferNftToHedera', this.transactionData)
         .then((response) => this.afterTransferToHedrera(response))
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage(error.response.data))
     },

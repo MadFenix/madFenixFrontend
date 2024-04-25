@@ -100,6 +100,36 @@
           Eliminar cuenta
         </nuxt-link>
       </div>
+
+      <div v-if="perfil">
+        <section v-for="nft in perfil.nfts" :key="nft.id" class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
+          <!-- CTA card -->
+          <div class="tw-relative tw-py-16 tw-rounded-3xl tw-bg-dark-700 lg:tw-py-20">
+            <!-- Right background diagonal -->
+            <svg class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
+              <polygon points="0,0 100,0 0,100"></polygon>
+            </svg>
+            <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"></div>
+
+            <!-- CTA content -->
+            <div class="tw-relative tw-z-30 tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center sm:tw-px-16 lg:tw-flex-row lg:tw-text-left">
+              <div class="tw-max-w-lg tw-flex tw-items-center tw-space-x-3 tw-text-2xl tw-font-bold sm:tw-text-4xl lg:tw-w-1/2">
+                <img :src="nft.image" width="80px" :alt="nft.name" />
+                <h5 class="tw-text-4xl tw-font-extrabold tw-tracking-tight tw-text-white sm:tw-text-5xl">
+                  <span v-html="nft.name" />
+                </h5>
+              </div>
+              <div class="tw-flex tw-justify-center tw-max-w-lg tw-mt-10 lg:tw-w-1/2 lg:tw-mt-0 lg:tw-justify-end">
+                <div>
+                  <nuxt-link :to="'/transfiere-nft-a-hedera/?nft_identification_id=' + nft.id + '&nft_token_id=' + nft.nft.token_props + '.' + nft.nft.token_realm + '.' + nft.nft.token_number" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+                    Transfiere el NFT a Hedera
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 </template>
 

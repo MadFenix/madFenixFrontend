@@ -45,7 +45,7 @@ export default {
   middleware: 'authenticated',
 
   head: {
-    title: 'Login - Mad Fénix',
+    title: 'Transferir oro a Hedera - Mad Fénix',
     meta: [
       {
         hid: 'description',
