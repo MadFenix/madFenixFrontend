@@ -21,6 +21,15 @@
         </div>
       </section>
 
+      <div v-if="perfil && perfil.user_twitch" class="tw-my-4 tw-w-full tw-text-center">
+        Conectad@ con <span v-html="perfil.user_twitch" />
+      </div>
+      <div v-else class="tw-my-4">
+        <a :href="'https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=2wbjjwkzyy9t68a8ex5b4fsz7kfc37&redirect_uri=https://api.madfenix.com/api/twitch/connectAccount&scope=&state=user' + user.id" class="tw-flex tw-items-center tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Conectar tu cuenta de Twitch
+        </a>
+      </div>
+
       <!-- Buscamos creadores section -->
       <section class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
         <!-- CTA card -->
