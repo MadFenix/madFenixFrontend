@@ -39,7 +39,7 @@
                 Nivel: <span v-html="seasonReward.level" />
               </h5>
               <h5 class="tw-text-2xl tw-font-extrabold tw-tracking-tight tw-text-white sm:tw-text-2xl">
-                Premio: <span v-if="seasonReward.oro" v-html="seasonReward.oro + ' oro'" /><span v-if="seasonReward.plumas" v-html="seasonReward.plumas + ' pluma'" /><span v-if="seasonReward.nft" v-html="'1 NFT ' + seasonReward.nft.name + '. Límite: '" /><span v-if="seasonReward.max_nft_rewards" v-html="seasonReward.max_nft_rewards" />
+                Premio: <span v-if="seasonReward.oro" v-html="seasonReward.oro + ' oro'" /><span v-if="seasonReward.plumas" v-html="seasonReward.plumas + ' pluma'" /><span v-if="seasonReward.nft" v-html="'1 Ítem ' + seasonReward.nft.name + '. Límite: '" /><span v-if="seasonReward.max_nft_rewards" v-html="seasonReward.max_nft_rewards" />
               </h5>
             </div>
             <div class="tw-flex tw-justify-center tw-max-w-lg tw-mt-10 lg:tw-w-1/2 lg:tw-mt-0 lg:tw-justify-end">

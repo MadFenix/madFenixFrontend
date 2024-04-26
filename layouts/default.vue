@@ -45,11 +45,6 @@
             >
               Home
             </nuxt-link>
-            <nuxt-link to="/torneo-inaugural"
-               class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
-            >
-              Torneo inaugural
-            </nuxt-link>
 
             <nuxt-link v-if="user" v-for="(item, key) in items" :key="key" :to="item.path"
               class="tw-block tw-px-4 tw-py-1 tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full sm:tw-inline-block hover:tw-text-white hover:tw-bg-dark-700"
@@ -131,11 +126,6 @@
                 >
                   Home
                 </nuxt-link>
-                <nuxt-link to="/torneo-inaugural"
-                           class="tw-block tw-px-6 tw-py-2 tw-font-medium tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full tw-text-dark-300 hover:tw-text-white hover:tw-bg-dark-700 sm:tw-inline-block"
-                >
-                  Torneo inaugural
-                </nuxt-link>
 
                 <div v-if="user" v-for="(item, key) in items" :key="key">
                   <nuxt-link :to="item.path"
@@ -208,11 +198,6 @@
             <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
               <nuxt-link to="/">
                 Home
-              </nuxt-link>
-            </li>
-            <li class="tw-font-medium tw-text-dark-300 hover:tw-text-white">
-              <nuxt-link to="/torneo-inaugural">
-                Torneo inaugural
               </nuxt-link>
             </li>
             <li v-if="user" v-for="(item, key) in items" :key="key" class="tw-font-medium tw-text-dark-300 hover:tw-text-white">

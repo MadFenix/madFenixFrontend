@@ -14,7 +14,7 @@
       </v-col>
       <v-spacer />
     </v-row>
-    <CtCard title="Transferir NFT a Hedera" width="300" class="mx-auto">
+    <CtCard title="Transferir Ítem a Hedera" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
           <CtTextField append-icon="mdi-ticket" label="Id de hedera" v-model="transactionData.id_hedera"/>
@@ -42,7 +42,7 @@ export default {
   middleware: 'authenticated',
 
   head: {
-    title: 'Transferir NFT a Hedera - Mad Fénix',
+    title: 'Transferir Ítem a Hedera - Mad Fénix',
     meta: [
       {
         hid: 'description',
@@ -72,7 +72,7 @@ export default {
 
   mounted() {
     this.$axios.setToken(this.token, 'Bearer');
-    this.transactionData.nft_identification_id = this.$route.query.nft_identification_id;
+    this.transactionData.nft_identification_id = this.$route.query.item_identification_id;
     this.nft_token_id = this.$route.query.nft_token_id;
   },
 
