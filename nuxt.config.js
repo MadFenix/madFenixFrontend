@@ -46,6 +46,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/vuetify-module
     '@nuxtjs/vuetify',
+    // https://pwa.nuxtjs.org/setup
+    '@nuxtjs/pwa',
   ],
   vuetify: {
     /* module options */

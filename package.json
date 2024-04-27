@@ -26,6 +26,7 @@
     "vue-cookie-toggler": "^0.2.2"
   },
   "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/vuetify": "^1.11.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
