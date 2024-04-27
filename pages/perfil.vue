@@ -25,8 +25,8 @@
         Conectad@ con <span v-html="perfil.user_twitch" />
       </div>
       <div v-else class="tw-my-4">
-        <a :href="'https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=2wbjjwkzyy9t68a8ex5b4fsz7kfc37&redirect_uri=https://api.madfenix.com/api/twitch/connectAccount&scope=&state=user' + user.id" class="tw-flex tw-items-center tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
-          Conectar tu cuenta de Twitch
+        <a :href="'https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=2wbjjwkzyy9t68a8ex5b4fsz7kfc37&redirect_uri=https%3A%2F%2Fapi.madfenix.com%2Fapi%2Ftwitch%2FconnectAccount&scope=user%3Aread%3Aemail&state=user' + user.id" class="tw-flex tw-items-center tw-w-2/3 md:tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Conectar Twitch
         </a>
       </div>
 
