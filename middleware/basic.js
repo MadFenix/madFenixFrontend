@@ -3,7 +3,7 @@ export default function ({ store, redirect }) {
 
   if (! store.state.user.token || ! store.state.user.user) {
     //let token = document.cookie.match(new RegExp('(^| )token=([^;]+)'))
-    let token = store.$cookies.get('token')
+    /*let token = store.$cookies.get('token')
     if (token) {
       store.dispatch('user/setToken', token)
 
@@ -18,6 +18,6 @@ export default function ({ store, redirect }) {
           store.dispatch('user/fetchUser')
         } catch (error) { }
       }
-    }
+    }*/
   }
 }

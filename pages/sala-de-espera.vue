@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import {mapActions, mapMutations} from "vuex";
+
 export default {
   head: {
     title: 'Sala de espera - Mad Fénix',
@@ -36,7 +38,42 @@ export default {
   },
 
   mounted() {
+    this.setUserCookies();
     setTimeout(() => this.$router.push({ path: '/perfil' }), 3000)
+  },
+
+  methods: {
+
+    setUserCookies() {
+      let token = this.$cookies.get('token')
+      if (token) {
+        this.setToken(token);
+
+        //let user = document.cookie.match(new RegExp('(^| )user=([^;]+)'))
+        let user = this.$cookies.get('user')
+
+        if (user) {
+          this.updateUser(user);
+        } else {
+          console.log('test')
+          try {
+            this.fetchUser();
+          } catch (error) {
+          }
+        }
+      }
+    },
+
+    ...mapActions({
+      setServerMessage: 'serverMessage/setServerMessage',
+      setToken: 'user/setToken',
+      updateUser: 'user/updateUser',
+      fetchUser: 'user/fetchUser',
+    }),
+    ...mapMutations({
+      updateUser: 'user/updateUser',
+    }),
+
   }
 }
 </script>

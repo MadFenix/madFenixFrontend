@@ -1,14 +1,9 @@
-@font-face {
-  font-family: 'Ancient God';
-  src: url('/fonts/AncientGof.ttf') format('truetype');
-}
 
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 .font-ancient-god {
-  font-family: 'Ancient God', sans-serif;
 }
 
 .v-application--wrap {

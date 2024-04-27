@@ -21,8 +21,11 @@
         </div>
       </section>
 
-      <div v-if="perfil && perfil.user_twitch" class="tw-my-4 tw-w-full tw-text-center">
-        Conectad@ con <span v-html="perfil.user_twitch" />
+      <div v-if="perfil && perfil.user_twitch" class="tw-my-4 tw-w-full tw-text-white tw-text-center">
+        Conectad@ con <span v-html="perfil.user_twitch" />.&nbsp;
+        <a @click="desconectarTwitch()" class="tw-text-white tw-underline tw-font-semibold hover:tw-no-underline">
+          Desconectar Twitch
+        </a>
       </div>
       <div v-else class="tw-my-4">
         <a :href="'https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=2wbjjwkzyy9t68a8ex5b4fsz7kfc37&redirect_uri=https%3A%2F%2Fapi.madfenix.com%2Fapi%2Ftwitch%2FconnectAccount&scope=user%3Aread%3Aemail&state=user' + user.id" class="tw-flex tw-items-center tw-w-2/3 md:tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
@@ -54,19 +57,13 @@
                 </nuxt-link>
                 <br>
                 <nuxt-link to="/transfiere-plumas-a-hedera" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
-                  Transfiere Plumas a Hedera
+                  Transfiere Plumas
                 </nuxt-link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center tw-text-white">
-        <b>Para transferir Plumas desde Hedera a tu cuenta</b><br>
-        Debes enviar las plumas que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<span class="tw-text-3xl" v-html="'deposito:' + user.id" /><br>
-        Este proceso puede tardar de 10 a 20 minutos.<br>
-        No envíes decimales ya que se perderán.
-      </div>
 
       <section class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
         <!-- CTA card -->
@@ -91,24 +88,13 @@
                 </nuxt-link>
                 <br>
                 <nuxt-link to="/transfiere-oro-a-hedera" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
-                  Transfiere Oro a Hedera
+                  Transfiere Oro
                 </nuxt-link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-px-4 tw-mx-auto tw-text-center tw-text-white">
-        <b>Para transferir Oro desde Hedera a tu cuenta</b><br>
-        Debes enviar el oro que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<span class="tw-text-3xl" v-html="'deposito:' + user.id" /><br>
-        Este proceso puede tardar de 10 a 20 minutos.<br>
-        No envíes decimales ya que se perderán.
-      </div>
-      <div class="tw-flex tw-items-center tw-py-5 tw-text-white tw-justify-center">
-        <nuxt-link to="/eliminar-cuenta" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
-          Eliminar cuenta
-        </nuxt-link>
-      </div>
 
       <div v-if="perfil">
         <section v-for="nft in perfil.nfts" :key="nft.id" class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
@@ -131,7 +117,7 @@
               <div class="tw-flex tw-justify-center tw-max-w-lg tw-mt-10 lg:tw-w-1/2 lg:tw-mt-0 lg:tw-justify-end">
                 <div>
                   <nuxt-link :to="'/transfiere-item-a-hedera/?item_identification_id=' + nft.id + '&nft_token_id=' + nft.nft.token_props + '.' + nft.nft.token_realm + '.' + nft.nft.token_number" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
-                    Transfiere el Ítem a Hedera
+                    Transfiere el Ítem
                   </nuxt-link>
                 </div>
               </div>
@@ -139,11 +125,17 @@
           </div>
         </section>
       </div>
+
+      <div class="tw-flex tw-items-center tw-py-5 tw-text-white tw-justify-center">
+        <nuxt-link to="/eliminar-cuenta" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Eliminar cuenta
+        </nuxt-link>
+      </div>
     </div>
 </template>
 
 <script>
-import {mapActions} from "vuex";
+import {mapActions, mapMutations} from "vuex";
 
 export default {
   middleware: 'authenticated',
@@ -166,6 +158,7 @@ export default {
   },
 
   mounted() {
+    this.setUserCookies();
     this.$axios.setToken(this.token, 'Bearer')
     this.getPerfil()
   },
@@ -190,8 +183,40 @@ export default {
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
     },
 
+    desconectarTwitch() {
+      this.$axios.post('/api/twitch/disconnectTwitch')
+        .then((response) => this.getPerfil())
+        .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+    },
+
+    setUserCookies() {
+      let token = this.$cookies.get('token')
+      if (token) {
+        this.setToken(token);
+
+        //let user = document.cookie.match(new RegExp('(^| )user=([^;]+)'))
+        let user = this.$cookies.get('user')
+
+        if (user) {
+          this.updateUser(user);
+        } else {
+          console.log('test')
+          try {
+            this.fetchUser();
+          } catch (error) {
+          }
+        }
+      }
+    },
+
     ...mapActions({
       setServerMessage: 'serverMessage/setServerMessage',
+      setToken: 'user/setToken',
+      updateUser: 'user/updateUser',
+      fetchUser: 'user/fetchUser',
+    }),
+    ...mapMutations({
+      updateUser: 'user/updateUser',
     }),
   },
 }

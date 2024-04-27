@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import {mapActions, mapMutations} from 'vuex'
   export default {
     middleware: 'basic',
 
@@ -81,7 +81,42 @@ import { mapActions } from 'vuex'
     },
 
     mounted() {
+      this.setUserCookies();
       this.$axios.setToken(this.token, 'Bearer')
     },
+
+    methods: {
+
+      setUserCookies() {
+        let token = this.$cookies.get('token')
+        if (token) {
+          this.setToken(token);
+
+          //let user = document.cookie.match(new RegExp('(^| )user=([^;]+)'))
+          let user = this.$cookies.get('user')
+
+          if (user) {
+            this.updateUser(user);
+          } else {
+            console.log('test')
+            try {
+              this.fetchUser();
+            } catch (error) {
+            }
+          }
+        }
+      },
+
+      ...mapActions({
+        setServerMessage: 'serverMessage/setServerMessage',
+        setToken: 'user/setToken',
+        updateUser: 'user/updateUser',
+        fetchUser: 'user/fetchUser',
+      }),
+      ...mapMutations({
+        updateUser: 'user/updateUser',
+      }),
+
+    }
   }
 </script>

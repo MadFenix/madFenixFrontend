@@ -35,11 +35,21 @@
         </v-col>
       </v-row>
     </CtCard>
+    <v-row dense>
+      <v-spacer />
+      <v-col cols="6" class="mb-5 text-center mt-5">
+        <b>Para transferir Plumas desde Hedera a tu cuenta de Mad Fénix</b><br>
+        Debes enviar las plumas que quieras ingresar a la cuenta 0.0.4970116 con el siguiente memo:<br><span class="tw-text-3xl" v-html="'deposito:' + user.id" /><br>
+        Este proceso puede tardar de 10 a 20 minutos.<br>
+        No envíes decimales ya que se perderán.
+      </v-col>
+      <v-spacer />
+    </v-row>
   </v-app>
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import {mapActions, mapMutations} from 'vuex'
 
 export default {
   middleware: 'authenticated',
@@ -67,12 +77,16 @@ export default {
     serverMessage () {
       return this.$store.state.serverMessage.serverMessage
     },
+    user () {
+      return this.$store.state.user.user
+    },
     token () {
       return this.$store.state.user.token
     },
   },
 
   mounted() {
+    this.setUserCookies();
     this.$axios.setToken(this.token, 'Bearer')
   },
 
@@ -87,8 +101,34 @@ export default {
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage(error.response.data))
     },
 
+    setUserCookies() {
+      let token = this.$cookies.get('token')
+      if (token) {
+        this.setToken(token);
+
+        //let user = document.cookie.match(new RegExp('(^| )user=([^;]+)'))
+        let user = this.$cookies.get('user')
+
+        if (user) {
+          this.updateUser(user);
+        } else {
+          console.log('test')
+          try {
+            this.fetchUser();
+          } catch (error) {
+          }
+        }
+      }
+    },
+
     ...mapActions({
       setServerMessage: 'serverMessage/setServerMessage',
+      setToken: 'user/setToken',
+      updateUser: 'user/updateUser',
+      fetchUser: 'user/fetchUser',
+    }),
+    ...mapMutations({
+      updateUser: 'user/updateUser',
     }),
   }
 }
