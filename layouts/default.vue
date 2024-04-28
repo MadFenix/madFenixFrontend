@@ -309,6 +309,7 @@ export default {
     items: [
       { icon: ['fas', 'user'], text: 'Perfil', path: '/perfil' },
       { icon: ['fas', 'user'], text: 'Temporada', path: '/temporada' },
+      { icon: ['fas', 'user'], text: 'Tienda', path: '/tienda' },
     ],
     footerItems: [
       {

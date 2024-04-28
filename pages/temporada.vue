@@ -103,6 +103,18 @@ export default {
   },
 
   methods: {
+    afterLogout(){
+      this.setToken('')
+      this.removeUser()
+      setTimeout(() => this.$router.push({ path: '/' }), 2000)
+    },
+
+    logout () {
+      this.$axios.post('/api/logout')
+        .then(() => this.afterLogout())
+        .catch(() => this.afterLogout())
+    },
+
     afterSeasonDetails(response) {
       this.seasonDetails = response.data;
     },
@@ -110,7 +122,7 @@ export default {
     getSeasonDetails() {
       this.$axios.get('/api/season/seasonDetails')
         .then((response) => this.afterSeasonDetails(response))
-        .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+        .catch(() => this.logout())
     },
 
     canjearPremio(level) {

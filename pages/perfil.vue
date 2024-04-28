@@ -33,6 +33,18 @@
         </a>
       </div>
 
+      <div v-if="perfil && perfil.user_steam" class="tw-my-4 tw-w-full tw-text-white tw-text-center tw-hidden">
+        Conectad@ con <span v-html="perfil.user_steam" />.&nbsp;
+        <a @click="desconectarSteam()" class="tw-text-white tw-underline tw-font-semibold hover:tw-no-underline">
+          Desconectar Steam
+        </a>
+      </div>
+      <div v-else class="tw-my-4 tw-hidden">
+        <a @click="conectarSteam()" class="tw-flex tw-items-center tw-w-2/3 md:tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Conectar Steam
+        </a>
+      </div>
+
       <!-- Buscamos creadores section -->
       <section class="tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
         <!-- CTA card -->
@@ -173,6 +185,18 @@ export default {
   },
 
   methods: {
+    afterLogout(){
+      this.setToken('')
+      this.removeUser()
+      setTimeout(() => this.$router.push({ path: '/' }), 2000)
+    },
+
+    logout () {
+      this.$axios.post('/api/logout')
+        .then(() => this.afterLogout())
+        .catch(() => this.afterLogout())
+    },
+
     afterPerfil(response) {
       this.perfil = response.data;
     },
@@ -180,13 +204,22 @@ export default {
     getPerfil() {
       this.$axios.post('/api/profile/getUserProfile')
         .then((response) => this.afterPerfil(response))
-        .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+        .catch(() => this.logout())
     },
 
     desconectarTwitch() {
       this.$axios.post('/api/twitch/disconnectTwitch')
         .then((response) => this.getPerfil())
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+    },
+
+    desconectarSteam() {
+      this.$axios.post('/api/steam/disconnectSteam')
+        .then((response) => this.getPerfil())
+        .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+    },
+
+    conectarSteam() {
     },
 
     setUserCookies() {
