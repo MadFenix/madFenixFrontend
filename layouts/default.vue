@@ -66,12 +66,6 @@
             >
               Registro
             </nuxt-link>
-
-            <div class="tw-hidden md:tw-block">
-              <nuxt-link to="/blog/2024-01-22-buscamos-creadores-de-contenido" class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-3 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-800">
-                Buscamos creador@s
-              </nuxt-link>
-            </div>
           </div>
 
           <!-- Mobile menu container -->
@@ -148,11 +142,6 @@
                            class="tw-block tw-px-6 tw-py-2 tw-font-medium tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full tw-text-dark-300 hover:tw-text-white hover:tw-bg-dark-700 sm:tw-inline-block"
                 >
                   Registro
-                </nuxt-link>
-                <nuxt-link to="/blog/2024-01-22-buscamos-creadores-de-contenido"
-                           class="tw-block tw-px-6 tw-py-2 tw-font-medium tw-transition tw-duration-200 tw-ease-in-out tw-rounded-full tw-text-dark-300 hover:tw-text-white hover:tw-bg-dark-700 sm:tw-inline-block"
-                >
-                  Buscamos creador@s
                 </nuxt-link>
               </div>
             </div>
