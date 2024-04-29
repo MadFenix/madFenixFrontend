@@ -17,6 +17,7 @@
             <div class="tw-w-full tw-mx-auto lg:tw-w-4/5">
               <p class="tw-text-2xl tw-font-medium tw-tracking-tight tw-text-white sm:tw-text-3xl lg:tw-text-4xl lg:tw-leading-tight tw-mt-4" v-html="'Nivel: ' + (seasonDetails.user_season_level?? 0)" />
               <p class="tw-text-2xl tw-font-medium tw-tracking-tight tw-text-white sm:tw-text-3xl lg:tw-text-4xl lg:tw-leading-tight tw-mt-4" v-html="'Puntos: ' + (seasonDetails.user_season_points?? 0)" />
+              <p class="tw-text-2xl tw-font-medium tw-tracking-tight tw-text-white sm:tw-text-3xl lg:tw-text-4xl lg:tw-leading-tight tw-mt-4" v-html="'Premium: ' + (seasonDetails.user_season_premium? 'Si' : 'No')" />
             </div>
           </div>
         </div>
