@@ -629,9 +629,10 @@ export default {
           installButton.textContent = 'Instalar App Mad Fénix';
           installButton.style.position = 'fixed';
           installButton.style.background = 'white';
-          installButton.style.bottom = '10px';
-          installButton.style.left = '50%';
-          installButton.style.transform = 'translateX(-50%)';
+          installButton.style.bottom = '70px';
+          installButton.style.left = '20vw';
+          installButton.style.width = '60vw';
+          //installButton.style.transform = 'translateX(-50%)';
           installButton.style.zIndex = '9999';
           installButton.style.padding = '10px 20px';
           installButton.classList.add('btn-grad');
