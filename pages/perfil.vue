@@ -21,6 +21,24 @@
         </div>
       </section>
 
+      <div v-if="perfil && perfil.referred_code_from" class="tw-my-4 tw-w-full tw-text-white tw-text-center">
+        Tu referido: <span v-html="perfil.referred_code_from" />.&nbsp;
+      </div>
+      <div v-else class="tw-my-4">
+        <nuxt-link to="/vincular-codigo-referido"  class="tw-flex tw-items-center tw-w-2/3 md:tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+           Vincular código de referido
+        </nuxt-link>
+      </div>
+
+      <div v-if="perfil && perfil.referred_code" class="tw-my-4 tw-w-full tw-text-white tw-text-center">
+        Tu código de referido: <span v-html="perfil.referred_code" />.&nbsp;
+      </div>
+      <div v-else class="tw-my-4">
+        <nuxt-link to="/crear-codigo-referido"  class="tw-flex tw-items-center tw-w-2/3 md:tw-w-1/3 tw-m-auto tw-justify-center tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900">
+          Crear código de referido
+        </nuxt-link>
+      </div>
+
       <div v-if="perfil && perfil.user_twitch" class="tw-my-4 tw-w-full tw-text-white tw-text-center">
         Conectad@ con <span v-html="perfil.user_twitch" />.&nbsp;
         <a @click="desconectarTwitch()" class="tw-text-white tw-underline tw-font-semibold hover:tw-no-underline">
@@ -256,6 +274,7 @@ export default {
     }),
     ...mapMutations({
       updateUser: 'user/updateUser',
+      removeUser: 'user/removeUser',
     }),
   },
 }
