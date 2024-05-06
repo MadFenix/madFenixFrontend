@@ -59,7 +59,7 @@
                   </div>
                 </div>
                 <h3 class="tw-mt-6 tw-text-xl tw-font-semibold tw-leading-6 tw-text-white md:tw-text-2xl">
-                  Hábitos
+                  Hábitos diarios
                 </h3>
                 <p class="tw-mt-1 tw-text-base tw-leading-relaxed tw-text-dark-300">
                   Configura tus hábitos y consigue puntos de temporada por completar todo el día.
