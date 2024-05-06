@@ -57,7 +57,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Login en Mad Fénix.'
+        content: 'Transferir Ítem en Mad Fénix.'
       }
     ]
   },

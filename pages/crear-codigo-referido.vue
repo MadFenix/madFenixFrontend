@@ -40,7 +40,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Login en Mad Fénix.'
+        content: 'Crear tu código de referidos en Mad Fénix.'
       }
     ]
   },

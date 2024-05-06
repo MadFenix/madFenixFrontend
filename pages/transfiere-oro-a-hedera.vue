@@ -61,7 +61,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Login en Mad Fénix.'
+        content: 'Transferir oro en Mad Fénix.'
       }
     ]
   },

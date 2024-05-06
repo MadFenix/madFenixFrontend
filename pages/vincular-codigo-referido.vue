@@ -35,12 +35,12 @@ export default {
   middleware: 'authenticated',
 
   head: {
-    title: 'Crear tu código de referidos - Mad Fénix',
+    title: 'Vincular código de referidos - Mad Fénix',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Login en Mad Fénix.'
+        content: 'Vincular código de referidos en Mad Fénix.'
       }
     ]
   },
