@@ -107,7 +107,7 @@ export default {
     afterLogout(){
       this.setToken('')
       this.removeUser()
-      setTimeout(() => this.$router.push({ path: '/' }), 2000)
+      setTimeout(() => this.$router.push({ path: '/login' }), 2000)
     },
 
     logout () {
