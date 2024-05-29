@@ -160,6 +160,7 @@ export default {
     }),
     ...mapMutations({
       updateUser: 'user/updateUser',
+      removeUser: 'user/removeUser',
     }),
   },
 }

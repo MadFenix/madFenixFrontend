@@ -117,6 +117,7 @@ import {mapActions, mapMutations} from 'vuex';
       }),
       ...mapMutations({
         updateUser: 'user/updateUser',
+        removeUser: 'user/removeUser',
       }),
 
     }
