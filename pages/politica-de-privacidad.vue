@@ -104,6 +104,7 @@ import {mapActions, mapMutations} from 'vuex'
       ...mapActions({
         setServerMessage: 'serverMessage/setServerMessage',
         setToken: 'user/setToken',
+        setUserToNull: 'user/setUserToNull',
         updateUser: 'user/updateUser',
         fetchUser: 'user/fetchUser',
       }),

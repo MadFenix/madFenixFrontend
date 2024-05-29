@@ -14,6 +14,16 @@ export const actions = {
     state.commit('updateToken', token)
   },
 
+  setUserToNull(state) {
+    let user = '';
+    //window.document.cookie = 'token=' + token
+    this.$cookies.set('user', user, {
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+      path: '/',
+    })
+    state.commit('updateUser', user)
+  },
+
   fetchUser (state) {
     this.$axios.get('/api/user')
       .then((response) => {

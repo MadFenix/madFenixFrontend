@@ -351,6 +351,7 @@ export default {
   methods: {
     afterLogout(){
       this.setToken('')
+      this.setUserToNull()
       this.removeUser()
       setTimeout(() => this.$router.push({ path: '/' }), 2000)
     },
@@ -363,6 +364,7 @@ export default {
 
     ...mapActions({
       setToken: 'user/setToken',
+      setUserToNull: 'user/setUserToNull',
     }),
 
     ...mapMutations({

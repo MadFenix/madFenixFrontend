@@ -91,7 +91,10 @@ export default {
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage(error.response.data))
     },
     afterLogout(){
+      this.$cookies.remove('token')
+      this.$cookies.remove('user')
       this.setToken('')
+      this.setUserToNull()
       this.removeUser()
       setTimeout(() => this.$router.push({ path: '/login' }), 2000)
     },
@@ -135,6 +138,7 @@ export default {
     ...mapActions({
       setServerMessage: 'serverMessage/setServerMessage',
       setToken: 'user/setToken',
+      setUserToNull: 'user/setUserToNull',
       updateUser: 'user/updateUser',
       fetchUser: 'user/fetchUser',
     }),

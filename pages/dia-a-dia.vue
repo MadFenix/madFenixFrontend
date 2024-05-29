@@ -62,6 +62,7 @@ export default {
     ...mapActions({
       setServerMessage: 'serverMessage/setServerMessage',
       setToken: 'user/setToken',
+      setUserToNull: 'user/setUserToNull',
       updateUser: 'user/updateUser',
       fetchUser: 'user/fetchUser',
     }),

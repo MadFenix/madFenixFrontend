@@ -650,7 +650,10 @@ export default {
     },
 
     afterLogout(){
+      this.$cookies.remove('token')
+      this.$cookies.remove('user')
       this.setToken('')
+      this.setUserToNull()
       this.removeUser()
       setTimeout(() => this.$router.push({ path: '/login' }), 2000)
     },
@@ -734,6 +737,7 @@ export default {
     ...mapActions({
       setServerMessage: 'serverMessage/setServerMessage',
       setToken: 'user/setToken',
+      setUserToNull: 'user/setUserToNull',
       updateUser: 'user/updateUser',
       fetchUser: 'user/fetchUser',
     }),
