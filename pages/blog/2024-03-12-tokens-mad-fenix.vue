@@ -89,7 +89,7 @@
 
         <h2 class="tw-mt-4 tw-text-xl tw-font-extrabold tw-text-center tw-text-white md:tw-mt-5 sm:tw-text-2xl md:tw-text-3xl">Piezas de oro</h2>
 
-        <p class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">Las Piezas de Oro, un activo digital con un suministro máximo de 900k, cuya distribución se realiza a través de ventas públicas y privadas en el mercado primario, así como mediante interacciones de usuarios y aliados. Este token, disponible en formatos FT y NFT, es la moneda principal en los juegos del estudio, ofreciendo pequeñas ventajas estratégicas y la posibilidad de adquirir diversos elementos dentro del ecosistema. Con una distribución diversificada y un sistema mixto que abarca diferentes plataformas, las Piezas de Oro son fundamentales en la economía digital del estudio.</p>
+        <p class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">Las Piezas de Oro, un activo digital con un suministro máximo de 900k, cuya distribución se realiza a través de ventas públicas y privadas en el mercado primario, así como mediante interacciones de usuarios y aliados. Este token, disponible en formatos FT, es la moneda principal en los juegos del estudio, ofreciendo pequeñas ventajas estratégicas y la posibilidad de adquirir diversos elementos dentro del ecosistema. Con una distribución diversificada y un sistema mixto que abarca diferentes plataformas, las Piezas de Oro son fundamentales en la economía digital del estudio.</p>
 
         <ul>
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
@@ -102,7 +102,7 @@
             - Es un token utilitario.
           </li>
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Tipo de token FT y NFT. Sistema mixto:
+            - Tipo de token FT:
           </li>
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- FT centralizado en la plataforma Mad Fénix.
@@ -110,6 +110,7 @@
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- FT descentralizado en Hedera.
           </li>
+          <!--
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- NFT centralizado en la plataforma Mad Fénix.
           </li>
@@ -158,6 +159,7 @@
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- 1 - Valor 7PO. - Valor total 7.
           </li>
+          -->
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             - Es la moneda de uso común en los juegos del estudio.
           </li>
@@ -167,6 +169,7 @@
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             - Puedes comprar juegos, pases de temporada, artículos coleccionables, whitelists, etc.
           </li>
+          <!--
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             - Numerología en los NFT especiales: 7^3 = 121 + 222
           </li>
@@ -197,6 +200,7 @@
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             - Distribución del supply durante 5 años:
           </li>
+          -->
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- 30k - 30 de Marzo de 2024.
           </li>
@@ -226,85 +230,6 @@
           </li>
           <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
             -- 150k - 30 de Septiembre de 2028
-          </li>
-        </ul>
-
-        <h2 class="tw-mt-4 tw-text-xl tw-font-extrabold tw-text-center tw-text-white md:tw-mt-5 sm:tw-text-2xl md:tw-text-3xl">Dragones custodio</h2>
-
-        <p class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">Finalmente, nos encontramos con los Dragones Custodio, una colección exclusiva de NFTs con un suministro máximo de 500. Estos NFTs utilitarios y de gobernanza ofrecen, entre otros, acceso a los pases de temporada premium, multiplicadores de recompensas y acceso completo a los juegos*, representando el estatus de early adopter de la comunidad de Mad Fénix. Con una distribución exclusiva y privilegios en futuras colecciones, los Dragones Custodio pretenden ser codiciados.</p>
-
-        <ul>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - <b>Supply máximo</b>: 500
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Venta privada y pública en launchpad. Habrá compra/venta en mercado secundario.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Tipo de token NFT. Sistema mixto:
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- NFT centralizado en la plataforma Mad Fénix.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- NFT descentralizado en Hedera.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Es token utilitario y de gobernanza.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Considerada la colección matriz.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Tiene una versión 2D y otra 3D animadas.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Acceso a todos los pases de temporada premium. Tener más de un Dragon Custodio te da multiplicadores en algunas recompensas (Como las Piezas de oro):
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 2 Dragones -> multiplicador 1.5x.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 3 Dragones -> multiplicador 1.75x.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 5 Dragones -> multiplicador 2x.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 8 Dragones -> multiplicador 2.25x.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 10 Dragones -> multiplicador 3x.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Acceso completo a todos los juegos (Excepto a las funciones que usan los tokens). Por ejemplo: un juego de plataformas con 10 niveles tiene un nivel gratuito y para desbloquear los otros 9 se debe pagar, siendo holder es gratuito. Aún así si en el juego puedes comprar pociones con Piezas de oro eso no está incluido.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Se pueden usar en algunos juegos. La cantidad de dragones también puede conllevar alguna ventaja.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Participación en la venta privada de Piezas de oro. La cantidad límite de compra se acumula por la cantidad de dragones.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Whitelist en futuras colecciones.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Freemints para algunos coleccionables de la tienda.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - Los dragones tendrán una venta privada de 1 día y una venta pública de 2 días en cada lanzamiento. Distribución del supply en tres lanzamientos:
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 11, 12 y 13 de Abril de 2024. 50 NFTs a 30 USDT en privada y 50 USDT en pública
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            --  6, 7, 8 de Junio de 2024. 150 NFTs. Precio a definir, nunca más barato.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            -- 10, 11, 12 de Octubre de 2024. 300 NFTs. Precio a definir, nunca más barato.
-          </li>
-          <li class="tw-max-w-lg tw-mx-auto tw-mt-4 tw-text-xl md:tw-mt-5 tw-text-dark-300 md:tw-max-w-3xl">
-            - El reveal de la colección será en Diciembre de 2024.
           </li>
         </ul>
       </div>
