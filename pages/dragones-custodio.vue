@@ -578,6 +578,12 @@
       </div>
     </section>
 
+    <div class="tw-relative tw-w-full tw-h-16 tw-bg-dark-800 md:tw-h-32 lg:tw-h-48">
+      <svg class="tw-absolute tw-w-full tw-h-full tw-text-dark-900" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
+        <polygon points="0,100 100,100 100,0"></polygon>
+      </svg>
+    </div>
+
   </div>
 </template>
 
@@ -607,7 +613,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://madfenix.com/img/blog/buscamosCreadores.jpg'
+        content: 'https://madfenix.com/img/dragones-custodio/dragon_rey_1_cascada.jpg'
       },
       {
         hid: 'og:image:width',
