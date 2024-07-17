@@ -391,10 +391,6 @@
               <a class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900" href="/dragones-custodio#utilidades">
                 Ver utilidades
               </a>
-              <a class="tw-relative tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-mt-5 tw-ml-0 tw-text-base tw-font-medium tw-leading-snug tw-text-white tw-h-14 sm:tw-ml-4 sm:tw-mt-0 tw-group" href="https://x.com/MadFenixGames" target="_blank">
-                <span class="tw-absolute tw-top-0 tw-left-0 tw-z-10 tw-block tw-w-full tw-h-full tw-transition-all tw-ease-in-out tw-rounded-full tw-bg-gradient-to-r tw-duration-250 tw-from-dark-800 tw-to-dark-900 md:tw-w-14 md:tw-group-hover:tw-w-full"></span>
-                <span class="tw-relative tw-z-20">Follow Twitter</span>
-              </a>
             </div>
           </div>
 

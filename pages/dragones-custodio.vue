@@ -259,8 +259,8 @@
           </div>
 
           <!-- Feature image -->
-          <div class="tw-relative tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
-            <img src="images/features-alternating-simple-01.jpg" class="tw-absolute tw-inset-y-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
+          <div class="tw-relative tw-flex tw-justify-center tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
+            <img src="/img/dragones-custodio/dragon_mestizo_8_lago.jpg" class="tw-inset-y-0 tw-object-center tw-w-2/3 tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
           </div>
         </div>
 
@@ -282,8 +282,8 @@
           </div>
 
           <!-- Feature image -->
-          <div class="tw-relative tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-l-3xl lg:tw-rounded-r-3xl tw-pt-11/12">
-            <img src="images/features-alternating-simple-02.jpg" class="tw-absolute tw-inset-y-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-shadow-xl md:tw-rounded-l-3xl lg:tw-rounded-r-3xl">
+          <div class="tw-relative tw-flex tw-justify-center tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-l-3xl lg:tw-rounded-r-3xl tw-pt-11/12">
+            <img src="/img/dragones-custodio/dragon_noble_5_palacio.jpg" class="tw-inset-y-0 tw-object-center tw-w-2/3 tw-shadow-xl md:tw-rounded-l-3xl lg:tw-rounded-r-3xl">
           </div>
         </div>
 
@@ -305,8 +305,8 @@
           </div>
 
           <!-- Feature image -->
-          <div class="tw-relative tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
-            <img src="images/features-alternating-simple-03.jpg" class="tw-absolute tw-inset-y-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
+          <div class="tw-relative tw-flex tw-justify-center tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
+            <img src="/img/dragones-custodio/dragon_realeza_2_castillo.jpg" class="tw-inset-y-0 tw-object-center tw-w-2/3 tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
           </div>
         </div>
 
@@ -328,8 +328,8 @@
           </div>
 
           <!-- Feature image -->
-          <div class="tw-relative tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-l-3xl lg:tw-rounded-r-3xl tw-pt-11/12">
-            <img src="images/features-alternating-simple-02.jpg" class="tw-absolute tw-inset-y-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-shadow-xl md:tw-rounded-l-3xl lg:tw-rounded-r-3xl">
+          <div class="tw-relative tw-flex tw-justify-center tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-l-3xl lg:tw-rounded-r-3xl tw-pt-11/12">
+            <img src="/img/dragones-custodio/dragon_rey_1_cascada.jpg" class="tw-inset-y-0 tw-object-center tw-w-2/3 tw-shadow-xl md:tw-rounded-l-3xl lg:tw-rounded-r-3xl">
           </div>
         </div>
 
@@ -348,8 +348,8 @@
           </div>
 
           <!-- Feature image -->
-          <div class="tw-relative tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
-            <img src="images/features-alternating-simple-03.jpg" class="tw-absolute tw-inset-y-0 tw-object-cover tw-object-center tw-w-full tw-h-full tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
+          <div class="tw-relative tw-flex tw-justify-center tw-w-full tw-mt-10 md:tw-mt-0 md:tw-rounded-r-3xl lg:tw-rounded-l-3xl tw-pt-11/12 md:tw-order-1">
+            <img src="/img/dragones-custodio/dragon_fenix.png" class="tw-inset-y-0 tw-object-center tw-w-2/3 tw-shadow-xl md:tw-rounded-r-3xl lg:tw-rounded-l-3xl">
           </div>
         </div>
       </div>
@@ -433,7 +433,7 @@
               </svg>
               <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-900 tw-rounded-r-3xl"></div>
             </div>
-            <img src="images/features-alternating-with-list-01.jpg" class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl">
+            <img src="/img/dragones-custodio/dragon_noble_1_bosque.jpg" class="tw-z-30 tw-w-2/3 tw-shadow-xl tw-rounded-3xl">
           </div>
         </div>
         <!-- Feature -->
@@ -509,10 +509,10 @@
               </svg>
               <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-900 tw-rounded-r-3xl"></div>
             </div>
-            <img src="images/features-alternating-with-list-02.jpg" class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl">
+            <img src="/img/el-luchador/1708.png" class="tw-z-30 tw-w-2/4 tw-shadow-xl tw-rounded-3xl">
           </div>
         </div><!-- Feature -->
-        <div class="tw-relative lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12">
+        <div class="tw-relative tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12">
           <!-- Feature text with list -->
           <div class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start">
             <div class="tw-w-full tw-text-center lg:tw-text-left">
@@ -558,20 +558,7 @@
               </div>
             </div>
           </div>
-          <!-- Feature image -->
-          <div class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-mt-0 lg:tw-max-w-none">
-            <div class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-left-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-left-4 sm:tw-top-8 sm:tw-left-8">
-              <svg class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
-                <polygon points="0,0 100,0 0,100"></polygon>
-              </svg>
-              <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-900 tw-rounded-r-3xl"></div>
-            </div>
-            <img src="images/features-alternating-with-list-01.jpg" class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl">
-          </div>
-        </div>
-        <!-- Feature -->
-        <div class="tw-relative tw-mt-24 lg:tw-mt-32 lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-12">
-          <!-- Feature text with list -->
+
           <div class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-order-2 lg:tw-items-start">
             <div class="tw-w-full tw-text-center lg:tw-text-left">
               <p class="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-sm tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-600 tw-to-dark-700">
@@ -586,16 +573,6 @@
                 &nbsp;
               </p>-->
             </div>
-          </div>
-          <!-- Feature image -->
-          <div class="tw-relative tw-flex tw-items-center tw-justify-center tw-max-w-lg tw-mx-auto tw-mt-10 lg:tw-order-1 lg:tw-mt-0 lg:tw-max-w-none">
-            <div class="tw-absolute tw-w-full tw-h-full tw-rounded-3xl tw-bg-dark-700 2xl:tw-right-10 2xl:tw-top-10 lg:tw-top-4 lg:tw-right-4 sm:tw-top-8 sm:tw-right-8">
-              <svg class="tw-absolute tw-inset-y-0 tw-top-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
-                <polygon points="0,0 100,0 0,100"></polygon>
-              </svg>
-              <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-900 tw-rounded-r-3xl"></div>
-            </div>
-            <img src="images/features-alternating-with-list-02.jpg" class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-xl tw-rounded-3xl">
           </div>
         </div>
       </div>
