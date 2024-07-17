@@ -146,7 +146,7 @@
               2. Pases premium gratis
             </h3>
             <p class="tw-mt-2 tw-text-lg tw-leading-relaxed tw-text-center tw-text-dark-300">
-              Actualmente los pases de temporada premium tienen un coste de 10 piezas de oro. Para los holders de un Dragon Custodio será gratis.
+              Actualmente los pases de temporada premium tienen un coste de 20 piezas de oro. Para los holders de un Dragon Custodio será gratis.
             </p>
           </div>
 
