@@ -62,7 +62,7 @@
           <!-- Item -->
           <span class="tw-overflow-hidden">
             <div class="tw-flex tw-items-center tw-justify-center tw-w-full tw-transition tw-duration-200 tw-ease-in-out tw-h-36 tw-rounded-3xl tw-bg-dark-700 hover:tw-bg-dark-800 tw-text-white tw-text-dark-400">
-              Supply: 500
+              Supply: 506
             </div>
           </span>
 
