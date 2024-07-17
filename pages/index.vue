@@ -362,6 +362,50 @@
       </svg>
     </div>
 
+    <section class="tw-px-4 tw-pt-6 tw-pb-12 tw-mx-auto tw-max-w-screen-2xl md:tw-pb-16 sm:tw-px-6 lg:tw-px-8">
+      <!-- Hero card -->
+      <div class="tw-relative tw-shadow-xl tw-rounded-3xl sm:tw-overflow-hidden tw-bg-dark-700">
+        <!-- Right background diagonal -->
+        <svg class="tw-absolute tw-inset-y-0 tw-z-20 tw-w-1/4 tw-h-full tw-right-1/4 tw-text-dark-700" preserveAspectRatio="none" viewBox="0 0 100 100" fill="currentcolor">
+          <polygon points="0,0 100,0 0,100"></polygon>
+        </svg>
+        <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"></div>
+
+        <!-- Hero card content -->
+        <div class="tw-relative tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-8 xl:tw-gap-x-12 sm:tw-px-6 sm:tw-py-12 lg:tw-py-12 lg:tw-px-8">
+          <!-- Card content text-->
+          <div class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start">
+            <p class="tw-z-30 tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-sm tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-800 tw-to-dark-900">
+              Dragones Custodio
+            </p>
+            <div class="tw-z-30 tw-w-full tw-max-w-lg tw-mx-auto tw-mt-6 tw-text-center lg:tw-text-left lg:tw-max-w-none md:tw-max-w-2xl">
+              <h1 class="tw-text-4xl tw-font-extrabold tw-text-white sm:tw-text-5xl md:tw-text-6xl lg:tw-text-5xl xl:tw-text-6xl">
+                La colección matriz de Mad Fénix
+              </h1>
+              <p class="tw-mt-6 tw-text-xl tw-text-dark-300">
+                Los Dragones Custodio simbolizan los guardianes de la esencia del proyecto. Tienen las mayores utilidades y son el activo digital más preciado de Mad Fenix Games.
+              </p>
+            </div>
+            <!-- Hero buttons -->
+            <div class="tw-z-30 tw-mt-10 sm:tw-flex sm:tw-justify-center lg:tw-justify-start">
+              <a class="tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900 hover:tw-text-white focus:tw-outline-none hover:tw-bg-dark-900" href="/dragones-custodio#utilidades">
+                Ver utilidades
+              </a>
+              <a class="tw-relative tw-flex tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-mt-5 tw-ml-0 tw-text-base tw-font-medium tw-leading-snug tw-text-white tw-h-14 sm:tw-ml-4 sm:tw-mt-0 tw-group" href="https://x.com/MadFenixGames" target="_blank">
+                <span class="tw-absolute tw-top-0 tw-left-0 tw-z-10 tw-block tw-w-full tw-h-full tw-transition-all tw-ease-in-out tw-rounded-full tw-bg-gradient-to-r tw-duration-250 tw-from-dark-800 tw-to-dark-900 md:tw-w-14 md:tw-group-hover:tw-w-full"></span>
+                <span class="tw-relative tw-z-20">Follow Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero image -->
+          <div class="tw-flex tw-items-center tw-justify-center tw-max-w-xl tw-mx-auto tw-mt-12 sm:tw-mt-16 lg:tw-mt-0 lg:tw-max-w-none">
+            <img src="/img/dragones-custodio/dragon_fenix.png" class="tw-z-30 tw-object-cover tw-w-auto tw-h-3/4 tw-shadow-md tw-rounded-3xl">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Blog section -->
     <section class="tw-px-4 tw-py-12 md:tw-py-16 sm:tw-px-6 lg:tw-px-8">
       <!-- Section text -->
