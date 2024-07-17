@@ -10,7 +10,7 @@
         <div class="tw-absolute tw-inset-y-0 tw-z-10 tw-w-1/2 tw-h-full tw-left-1/2 tw-bg-dark-800 tw-rounded-r-3xl"></div>
 
         <!-- Hero card content -->
-        <div class="tw-relative tw-max-w-screen-xl tw-px-4 tw-py-16 tw-mx-auto lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-8 xl:tw-gap-x-12 sm:tw-px-6 sm:tw-py-24 lg:tw-py-32 lg:tw-px-8">
+        <div class="tw-relative tw-max-w-screen-xl tw-px-4 tw-py-12 tw-mx-auto lg:tw-grid lg:tw-grid-cols-2 lg:tw-auto-rows-max lg:tw-gap-x-8 xl:tw-gap-x-12 sm:tw-px-6 sm:tw-py-12 lg:tw-py-12 lg:tw-px-8">
           <!-- Card content text-->
           <div class="tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-items-start">
             <p class="tw-z-30 tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-sm tw-font-medium tw-tracking-wide tw-text-white tw-rounded-r-full tw-rounded-tl-full tw-bg-gradient-to-r tw-from-dark-800 tw-to-dark-900">
@@ -38,7 +38,7 @@
 
           <!-- Hero image -->
           <div class="tw-flex tw-items-center tw-justify-center tw-max-w-xl tw-mx-auto tw-mt-12 sm:tw-mt-16 lg:tw-mt-0 lg:tw-max-w-none">
-            <img src="/img/placeholder/work-image-01.jpg" class="tw-z-30 tw-object-cover tw-w-auto tw-h-full tw-shadow-md tw-rounded-3xl">
+            <img src="/img/dragones-custodio/dragon_fenix.png" class="tw-z-30 tw-object-cover tw-w-auto tw-h-3/4 tw-shadow-md tw-rounded-3xl">
           </div>
         </div>
       </div>
@@ -123,15 +123,7 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: clipboard-list -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-10 tw-h-10 tw-text-dark-300" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
-                <rect x="9" y="3" width="6" height="4" rx="2"></rect>
-                <line x1="9" y1="12" x2="9.01" y2="12"></line>
-                <line x1="13" y1="12" x2="15" y2="12"></line>
-                <line x1="9" y1="16" x2="9.01" y2="16"></line>
-                <line x1="13" y1="16" x2="15" y2="16"></line>
-              </svg>
+              <svg height="40" viewBox="0 0 64 40" width="64" class="tw-w-10 tw-h-10" xmlns="http://www.w3.org/2000/svg"><path d="M22 20.5c0-1.379-1.121-2.5-2.5-2.5a2.502 2.502 0 0 0-2.5 2.5c0 1.379 1.121 2.5 2.5 2.5s2.5-1.121 2.5-2.5m2 0c0 2.481-2.019 4.5-4.5 4.5a4.505 4.505 0 0 1-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5s4.5 2.019 4.5 4.5m18 0c0 1.379 1.121 2.5 2.5 2.5s2.5-1.121 2.5-2.5-1.121-2.5-2.5-2.5a2.502 2.502 0 0 0-2.5 2.5m2.5-4.5c2.481 0 4.5 2.019 4.5 4.5S46.981 25 44.5 25a4.505 4.505 0 0 1-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5m19.311 16.12L57.485 6.817A8.988 8.988 0 0 0 48.754 0h-5.34a4.38 4.38 0 0 0-3.121 1.293A2.398 2.398 0 0 1 38.586 2H25.414a2.398 2.398 0 0 1-1.707-.707A4.38 4.38 0 0 0 20.586 0h-5.34a8.988 8.988 0 0 0-8.731 6.817L.189 32.12A6.35 6.35 0 0 0 6.342 40h1.135a6.334 6.334 0 0 0 5.83-3.845l2.468-5.761a1 1 0 1 0-1.838-.788l-2.468 5.762A4.339 4.339 0 0 1 7.477 38H6.342a4.347 4.347 0 0 1-4.212-5.396L8.455 7.302A6.991 6.991 0 0 1 15.246 2h5.34c.644 0 1.252.251 1.707.707A4.38 4.38 0 0 0 25.414 4h13.172a4.38 4.38 0 0 0 3.121-1.293A2.398 2.398 0 0 1 43.414 2h5.34a6.991 6.991 0 0 1 6.791 5.302l6.325 25.302A4.347 4.347 0 0 1 57.658 38h-1.135a4.339 4.339 0 0 1-3.992-2.632l-2.469-5.762a1 1 0 1 0-1.837.788l2.468 5.761A6.334 6.334 0 0 0 56.523 40h1.135a6.35 6.35 0 0 0 6.153-7.88M24 6a1 1 0 0 0-1 1v3c0 2.206 1.795 4 4 4h10c2.205 0 4-1.794 4-4V7a1 1 0 1 0-2 0v3c0 1.103-.896 2-2 2H27c-1.104 0-2-.897-2-2V7a1 1 0 0 0-1-1m27.867 18.743a1 1 0 0 0-1.732-1A6.527 6.527 0 0 1 44.5 27a6.508 6.508 0 0 1-6.5-6.5 1 1 0 1 0-2 0c0 1.247.27 2.432.754 3.5h-9.508A8.458 8.458 0 0 0 28 20.5a1 1 0 1 0-2 0c0 3.584-2.916 6.5-6.5 6.5a6.527 6.527 0 0 1-5.635-3.257 1 1 0 0 0-1.732 1A8.53 8.53 0 0 0 19.5 29a8.488 8.488 0 0 0 6.477-3h12.046a8.488 8.488 0 0 0 6.477 3 8.53 8.53 0 0 0 7.367-4.257M16 6a1 1 0 0 0-1 1v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V7a1 1 0 0 0-1-1m32.5-1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m3 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-6-3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m1.5 4.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0" fill="#C2C6DD" fill-rule="evenodd"/></svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
               1. Videojuegos gratis
@@ -146,17 +138,8 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: artboard -->
-              <svg class="tw-w-10 tw-h-10 tw-text-dark-300" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <rect x="8" y="8" width="8" height="8" rx="1"></rect>
-                <line x1="3" y1="8" x2="4" y2="8"></line>
-                <line x1="3" y1="16" x2="4" y2="16"></line>
-                <line x1="8" y1="3" x2="8" y2="4"></line>
-                <line x1="16" y1="3" x2="16" y2="4"></line>
-                <line x1="20" y1="8" x2="21" y2="8"></line>
-                <line x1="20" y1="16" x2="21" y2="16"></line>
-                <line x1="8" y1="20" x2="8" y2="21"></line>
-                <line x1="16" y1="20" x2="16" y2="21"></line>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tw-w-10 tw-h-10 tw-text-dark-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z" />
               </svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
@@ -171,11 +154,8 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: rocket -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-10 tw-h-10 tw-text-dark-300" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
-                <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path>
-                <circle cx="15" cy="9" r="1"></circle>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tw-w-10 tw-h-10 tw-text-dark-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.745 3A23.933 23.933 0 0 0 3 12c0 3.183.62 6.22 1.745 9M19.5 3c.967 2.78 1.5 5.817 1.5 9s-.533 6.22-1.5 9M8.25 8.885l1.444-.89a.75.75 0 0 1 1.105.402l2.402 7.206a.75.75 0 0 0 1.104.401l1.445-.889m-8.25.75.213.09a1.687 1.687 0 0 0 2.062-.617l4.45-6.676a1.688 1.688 0 0 1 2.062-.618l.213.09" />
               </svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
@@ -193,15 +173,7 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: clipboard-list -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-10 tw-h-10 tw-text-dark-300" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
-                <rect x="9" y="3" width="6" height="4" rx="2"></rect>
-                <line x1="9" y1="12" x2="9.01" y2="12"></line>
-                <line x1="13" y1="12" x2="15" y2="12"></line>
-                <line x1="9" y1="16" x2="9.01" y2="16"></line>
-                <line x1="13" y1="16" x2="15" y2="16"></line>
-              </svg>
+              <svg height="40" viewBox="0 0 64 40" width="64" class="tw-w-10 tw-h-10" xmlns="http://www.w3.org/2000/svg"><path d="M22 20.5c0-1.379-1.121-2.5-2.5-2.5a2.502 2.502 0 0 0-2.5 2.5c0 1.379 1.121 2.5 2.5 2.5s2.5-1.121 2.5-2.5m2 0c0 2.481-2.019 4.5-4.5 4.5a4.505 4.505 0 0 1-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5s4.5 2.019 4.5 4.5m18 0c0 1.379 1.121 2.5 2.5 2.5s2.5-1.121 2.5-2.5-1.121-2.5-2.5-2.5a2.502 2.502 0 0 0-2.5 2.5m2.5-4.5c2.481 0 4.5 2.019 4.5 4.5S46.981 25 44.5 25a4.505 4.505 0 0 1-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5m19.311 16.12L57.485 6.817A8.988 8.988 0 0 0 48.754 0h-5.34a4.38 4.38 0 0 0-3.121 1.293A2.398 2.398 0 0 1 38.586 2H25.414a2.398 2.398 0 0 1-1.707-.707A4.38 4.38 0 0 0 20.586 0h-5.34a8.988 8.988 0 0 0-8.731 6.817L.189 32.12A6.35 6.35 0 0 0 6.342 40h1.135a6.334 6.334 0 0 0 5.83-3.845l2.468-5.761a1 1 0 1 0-1.838-.788l-2.468 5.762A4.339 4.339 0 0 1 7.477 38H6.342a4.347 4.347 0 0 1-4.212-5.396L8.455 7.302A6.991 6.991 0 0 1 15.246 2h5.34c.644 0 1.252.251 1.707.707A4.38 4.38 0 0 0 25.414 4h13.172a4.38 4.38 0 0 0 3.121-1.293A2.398 2.398 0 0 1 43.414 2h5.34a6.991 6.991 0 0 1 6.791 5.302l6.325 25.302A4.347 4.347 0 0 1 57.658 38h-1.135a4.339 4.339 0 0 1-3.992-2.632l-2.469-5.762a1 1 0 1 0-1.837.788l2.468 5.761A6.334 6.334 0 0 0 56.523 40h1.135a6.35 6.35 0 0 0 6.153-7.88M24 6a1 1 0 0 0-1 1v3c0 2.206 1.795 4 4 4h10c2.205 0 4-1.794 4-4V7a1 1 0 1 0-2 0v3c0 1.103-.896 2-2 2H27c-1.104 0-2-.897-2-2V7a1 1 0 0 0-1-1m27.867 18.743a1 1 0 0 0-1.732-1A6.527 6.527 0 0 1 44.5 27a6.508 6.508 0 0 1-6.5-6.5 1 1 0 1 0-2 0c0 1.247.27 2.432.754 3.5h-9.508A8.458 8.458 0 0 0 28 20.5a1 1 0 1 0-2 0c0 3.584-2.916 6.5-6.5 6.5a6.527 6.527 0 0 1-5.635-3.257 1 1 0 0 0-1.732 1A8.53 8.53 0 0 0 19.5 29a8.488 8.488 0 0 0 6.477-3h12.046a8.488 8.488 0 0 0 6.477 3 8.53 8.53 0 0 0 7.367-4.257M16 6a1 1 0 0 0-1 1v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V7a1 1 0 0 0-1-1m32.5-1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m3 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-6-3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m1.5 4.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0" fill="#C2C6DD" fill-rule="evenodd"/></svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
               4. Funciones en los juegos
@@ -215,17 +187,8 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: artboard -->
-              <svg class="tw-w-10 tw-h-10 tw-text-dark-300" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <rect x="8" y="8" width="8" height="8" rx="1"></rect>
-                <line x1="3" y1="8" x2="4" y2="8"></line>
-                <line x1="3" y1="16" x2="4" y2="16"></line>
-                <line x1="8" y1="3" x2="8" y2="4"></line>
-                <line x1="16" y1="3" x2="16" y2="4"></line>
-                <line x1="20" y1="8" x2="21" y2="8"></line>
-                <line x1="20" y1="16" x2="21" y2="16"></line>
-                <line x1="8" y1="20" x2="8" y2="21"></line>
-                <line x1="16" y1="20" x2="16" y2="21"></line>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tw-w-10 tw-h-10 tw-text-dark-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
               </svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
@@ -240,11 +203,8 @@
           <div class="tw-w-full">
             <span class="tw-flex tw-items-center tw-justify-center tw-mx-auto tw-shadow-xl tw-bg-gradient-to-r tw-rounded-3xl tw-w-20 tw-h-20 tw-from-dark-600 tw-to-dark-700">
               <!-- TablerIcon name: rocket -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-10 tw-h-10 tw-text-dark-300" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
-                <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path>
-                <circle cx="15" cy="9" r="1"></circle>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tw-w-10 tw-h-10 tw-text-dark-300">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
               </svg>
             </span>
             <h3 class="tw-mt-5 tw-text-2xl tw-font-semibold tw-text-center tw-text-white">
