@@ -522,7 +522,7 @@
             </div>
             <div class="tw-w-full tw-max-w-lg tw-mt-4 tw-text-center lg:tw-mt-6 lg:tw-text-left sm:tw-max-w-2xl">
               <h3 class="tw-text-3xl tw-font-extrabold tw-text-white sm:tw-text-4xl md:tw-text-5xl">
-                Lanzamiento<br>Juego de Puzles
+                Lanzamiento<br>Juego de Puzzles
               </h3>
               <!--<p class="tw-mx-auto tw-mt-4 tw-text-xl lg:tw-mt-6 tw-text-dark-300">
                  &nbsp;
