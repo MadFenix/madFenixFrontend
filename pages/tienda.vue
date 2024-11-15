@@ -168,7 +168,7 @@ export default {
       if (product.price_oro > 0) {
         return product.price_oro + ' oros';
       } else {
-        return product.price_plumas + ' oros';
+        return product.price_plumas + ' plumas';
       }
     },
 
