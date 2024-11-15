@@ -77,7 +77,7 @@
                 <a v-else-if="product.price_fiat > 0" class="tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900">
                   Próximamente
                 </a>
-                <a v-else @click="buyProduct(product.id, product.price_oro)" class="tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900">
+                <a v-else @click="buyProduct(product.id, product.price_oro, product.price_plumas)" class="tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900">
                   Comprar por <span class="tw-ml-2" /><span class="tw-ml-2" v-html="getPrice(product)" />
                 </a>
               </div>
@@ -172,10 +172,10 @@ export default {
       }
     },
 
-    buyProduct(product_id, price_oro) {
+    buyProduct(product_id, price_oro, price_plumas) {
       this.$axios.post('/api/store/addProductToOrder', {product_id: product_id})
         .then((response) => {
-          if (price_oro > 0) {
+          if (price_oro > 0 || price_plumas > 0) {
             this.validateProduct(response.data);
           }
         })
