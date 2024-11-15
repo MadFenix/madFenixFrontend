@@ -78,7 +78,7 @@
                   Próximamente
                 </a>
                 <a v-else @click="buyProduct(product.id, product.price_oro)" class="tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-w-auto tw-px-8 tw-py-4 tw-text-base tw-font-semibold tw-leading-snug tw-transition tw-ease-in-out tw-bg-white tw-rounded-full tw-h-14 tw-duration-250 tw-text-dark-900">
-                  Comprar por <span class="tw-ml-2" /><span class="tw-ml-2" v-html="product.price_oro + ' oros'" />
+                  Comprar por <span class="tw-ml-2" /><span class="tw-ml-2" v-html="getPrice(product)" />
                 </a>
               </div>
             </div>
@@ -162,6 +162,14 @@ export default {
       this.$axios.post('/api/store/validateProductOrder', {product_order_id: product_order.id})
         .then(() => this.$router.push({ path: '/perfil' }))
         .catch((error) => (error.response.data.message) ? (error.response.data.message === 'The given data was invalid.') ? this.setServerMessage('Datos inválidos.') : this.setServerMessage(error.response.data.message) : this.setServerMessage('Error.'))
+    },
+
+    getPrice(product) {
+      if (product.price_oro > 0) {
+        return product.price_oro + ' oros';
+      } else {
+        return product.price_plumas + ' oros';
+      }
     },
 
     buyProduct(product_id, price_oro) {
